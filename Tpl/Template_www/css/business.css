@@ -1,0 +1,16 @@
+@charset "utf-8";
+.contect{background:#f8f8f8;overflow:hidden;}
+.wrapper {margin: 0 auto;width: 1000px;}.del_web{font-size:16px;font-family:"Microsoft YaHei";color:#e47838;font-weight:bold;}
+.del_web span{margin-left:100px;font-family:"宋体";font-size:12px;}
+.del_web span a{margin-left:10px;}
+.del_web span a:hover{text-decoration:underline;}
+.s_inline{width:193px;height:200px;float:left;}
+.s_inline li{margin-top:5px;}
+.s_inline a{width:194px;height:58px;display:inline-block;}
+.s_inline .sv_01{background:url(../images/servera.png) no-repeat;}
+.s_inline .sv_02{background:url(../images/serverb.png) no-repeat;}
+.serverList{width:715px;float:left;margin-left:48px;}
+.serverList h1{text-align:center;font-family:"Microsoft YaHei";font-size:16px; margin-top:20px;}
+.hand_time{color:#deae72;text-align:center;}
+.hand_time span{margin-left:10px;}
+.hand_con{padding:20px;}

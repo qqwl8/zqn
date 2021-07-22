@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote{ margin:0;padding:0;overflow:hidden;}
+body {color:#000; font:12px '宋体',Arial,Helvetica,sans-serif;overflow:hidden;}
+.clear{clear: both;}
+fieldset,img{border:0;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+.b{font-weight:bold;}
+ol li,ul li{list-style:none;}
+.bd{border:1px solid #f00;}/*--调试用--*/
+.hand{cursor:pointer;}
+.fl{display:inline-block;float:left;}
+.fr{display:inline-block;float:right;}
+.mp0{margin:0;padding:0;}
+.ml5{margin-left:5px;}
+.ml8{margin-left:8px;}
+.ml10{margin-left:10px;}
+.main{
+	width:525px;
+	height:320px;
+	background:url(../images/main.png) no-repeat;
+	overflow:hidden;
+}
+.main.ser{background:url(../images/ser_bg.png) no-repeat;}
+.news{
+	width:520px;
+	height:225px;
+	margin:0;
+	padding:0;
+}
+.news_img{
+	width:220px;
+	height:198px;
+	padding:10px;
+	position:relative;
+	overflow:hidden;
+	clear:none;
+}
+.news_img img{
+width: 220px;
+height: 198px;
+}
+.news_title{
+	width:245px;
+	height:200px;
+	margin-left:20px;
+}
+.head{
+	height:40px;
+}
+.news_title ul{
+	margin:0px;
+	margin-top:0;
+}
+.news_title ul li a{
+    display:block;
+	color:#f0e7b6;
+        height:24px;
+	line-height:24px;
+    *line-height:1.7em;
+    _line-height:1.7em;
+    cursor:pointer;
+}
+.news_title ul li a:hover{
+    text-decoration:underline;
+}
+.news_title ul a span{
+	display:inline-block;
+    float:left;
+    width:250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+.news_title ul a span.time{
+	display:inline-block;
+    float:left;
+    width:50px;
+    text-align: center;
+}
+/*登录开始*/
+.login{
+	width:520px;
+	height:80px;
+	position:relative;
+}
+.input{
+	width:500px;
+	height:75px;
+	text-align:center;
+}
+.input a{
+	display:inline-block;
+	width:162px;
+	height:61px;
+	background:url(../images/login.png) no-repeat;
+	text-indent:-1000px;
+	margin-top:10px;
+}
+.input a:hover{
+    text-decoration:none;
+}
+
+/*区服列表开始*/
+.s_top{
+	width:100%;
+	height:31px;
+    padding-left: 10px;
+	overflow:hidden;
+}
+.t_li{
+	width:89px;
+	height:25px;
+	line-height:24px;
+	color:#d8b767;
+	background:url(../images/l1.png) no-repeat;
+	text-align:center;
+	padding-top:0px;
+	margin:6px 0 0 5px;
+	overflow:hidden;
+}
+
+.b_li{
+	color:#FFF;
+	margin:0 3px 5px 0;
+}
+.b_li a{
+	display:block;
+	width:121px;
+	height:38px;
+        line-height: 38px;
+	background:url(../images/l2.png) no-repeat;
+	text-align:left;
+	color:#f6ae00;
+    text-indent: 35px
+}
+.b_li a:hover{text-decoration:none;}
+.b_li p{
+	width:62px;
+	height:20px;
+	background:url(../images/l2.png) no-repeat;
+	text-align:center;
+	padding-top:2px;
+}
+.back{
+	width:92px;
+	height:44px;
+	background:url(../images/back.png) no-repeat;
+	text-indent:-1000px;
+	margin-left:32px;
+}
+/*玩家信息开始*/
+.info_t{
+	width:520px;
+	height:30px;
+	margin-top:12px;
+	color:#FFF;
+}
+.info_t li{
+	font-size:14px;
+	color:#fff1a1;
+	overflow:hidden;
+}
+.info_t li.name{
+	width:120px;
+	color:#fff1a1;
+	text-align:center;
+    margin-left: 11px;
+    padding-top:1px;
+}
+.info_t li.name span{
+	display:inline-block;
+    float:left;
+	width:85px;
+}
+.info_t li.name span.hello{
+    width:35px;
+}
+.info_t li.user a{
+	color:#ffd5c7;
+    display:inline-block;
+    padding-top:1px;
+    font-size:14px;
+}
+.info_t li.out a{
+	color:#F00;
+    display:inline-block;
+    padding-top:1px;
+    font-size:14px;
+}
+.info_t li input{
+	width:50px;
+	height:15px;
+}
+.info_t li input.in {
+	width:48px;
+    height:23px;
+    background-repeat:no-repeat;
+    background-image:url(../images/in.png);
+    border:0;
+    text-indent:-1000px;    
+}
+.info_t li.more {
+	width:48px;
+	height:23px;
+	background:url(../images/more.png) no-repeat;
+	text-indent:-1000px;
+	margin-left:15px;
+}
+.last_server{
+	padding-top:2px;
+    *padding-top:3px;
+    _padding-top:3px;
+}
+.ser li.first{
+	height: 31px;
+  line-height: 30px;
+        margin: 0 0 0 5px;
+  background: url(../images/tabs_c.png) no-repeat;
+}
+/* tolog style  */
+.tolog {padding:10px 15px 0 15px;}
+.tolog ul {float:left;}
+.tolog li {width:248px;height:26px;padding:4px;text-align:left}
+.tolog li.name {background:url(../images/name.png) no-repeat;}
+.tolog li.pass {background:url(../images/pass.png) no-repeat;}
+.tolog li input {width:175px;height:22px;border:none;outline:none;background:none;color:#fff;text-align:left;margin-left:60px;}
+
+#login_btn {float:right;display:block;width:196px;height:71px;background:url(../images/btn.png) no-repeat;}
+#login_btn:hover {background:url(../images/btn_h.png) no-repeat;}
+#regbtn {float:right;display:block;width:196px;height:71px;background:url(../images/btn_reg.png) no-repeat;}
+#regbtn:hover {background:url(../images/btn_reg_h.png) no-repeat;}
+
+/*  server style  */
+.u_pos {padding:10px 15px 0 15px;}
+.use {float:left;width:49%;}
+.fast_in_row {float:right;width:49%}
+#fast_in {width:40px;height:23px;border:none;outline:none;background:#fff;text-align:center;color:#666;}
+.u_info {font-size:14px;color:#fff1a1}
+#username {color:#fff1a1}
+.u_info a.s_btn {/*float:right;display:block;width:50px;height:25px;*/padding: 5px 12px;background:url(../images/btn_bg.png) no-repeat;text-align:center;line-height:25px;color:#fff1a1}
+.u_curlog {padding-top:10px;}
+.u_curlog span,.u_curlog a {display:block;float:left;color:#fff;line-height:20px;}
+.u_curlog a {width:62px;height:20px;line-height:20px;text-align:center;background:url(../images/l2.png) no-repeat;margin-left:8px;}
+.s_bot {
+        width:515px;
+        height:125px;
+        padding:20px 0 0 10px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+}
+#to_reg {
+position: absolute;
+top: 15px;
+left: 273px;
+color: #fff;
+}
+.ser .users {
+  height: 30px;
+  padding: 6px 0 0 20px;
+}
+.users a{
+	color: #b60201;
+}
+.users a:hover{
+	color: #FFFFFF;
+}
+
+.ser .s_ser {height:50px;padding: 5px 0 10px 216px;}
+.ser .s_ser a {display: block;width:175px;height:50px;text-align: center;line-height:50px;color:#fff;font-size: 16px;}
+.server_list {
+  padding-top: 14px;
+}

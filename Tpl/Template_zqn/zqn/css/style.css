@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+i{
+	font-style: inherit;
+}
+input{
+	outline: none;
+}
+.container{
+	width: 475px;
+	height: 370px;
+/*	background: #090806;*/
+	background: url(../images/test.png) center center no-repeat;
+	background-size: 100%;
+	margin: 0 auto;
+}
+.title_link a{
+	width: 92px;
+	height: 45px;
+	display: inline-block;
+	text-indent: -99999px;
+}
+a.index{
+	background: url(../images/gjwz.png) center center no-repeat;
+	background-position: 0 0;
+}
+a.forum{
+	background: url(../images/zczh.png) center center no-repeat;
+	background-position: 0 0;
+}
+a.credit{
+	background: url(../images/kscz.png) center center no-repeat;
+	background-position: 0 0;
+}
+a.service{
+	background: url(../images/kfzx.png) center center no-repeat;
+	background-position: 0 0;
+	margin-left: 106px;
+}
+a.index:hover,a.forum:hover,a.credit:hover,a.service:hover{
+	background-position: 0 -45px;
+}
+a.index:active,a.forum:active,a.credit:active,a.service:active{
+	background-position: 0 -90px;
+}
+.information{
+	margin: 2px 0 0 12px;
+	overflow: hidden;
+}
+/*焦点图*/
+.info_left{
+	width: 215px;
+	height: 170px;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+.focus_pic {
+	position: relative;
+	width: 215px;
+	height: 170px;
+}
+.focus_box {
+	width: 215px;
+	height: 170px;
+	overflow: hidden;
+	position: relative;
+}
+.box {
+	width: 215px;
+	height: 170px;
+	position: relative;
+	font-size: 0;
+}
+.box a, .box img {
+	float: left;
+	display: block;
+	zoom: 1;
+	width: 215px;
+	height: 170px;
+}
+.uiDex {
+	height: 13px;
+	line-height: 17px;
+	text-align: center;
+	position: absolute;
+	right: 12px;
+	bottom: 5px;
+}
+.uiDex a {
+	width: 12px;
+	height: 12px;
+	margin: 0 4px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 12px;
+	position: relative;
+	top: -2px;
+	background: url(../images/fy.png) center center no-repeat;
+	background-position: 0 -12px;
+}
+.uiDex .current {
+	background: url(../images/fy.png) center center no-repeat;
+	background-position: 0 0;
+}
+/*最新动态*/
+.info_right{
+	float: left;
+	height: 170px;
+	position: relative;
+}
+.news_title{
+	width: 101px;
+	height: 25px;
+	background: url(../images/z-rd.png) center center no-repeat;
+	display: block;
+	margin: 0 auto;
+	text-indent: -9999px;
+	margin-top: 5px;
+}
+.news{
+	width: 240px;
+	height: 140px;
+	overflow: hidden;
+	padding-left: 7px;
+}
+.news a{
+	width: 228px;
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	color: #bda9aa;
+	font-size: 14px;
+	overflow: hidden;
+}
+/*账号登录*/
+.login{
+	padding: 5px 0 0 10px;
+	overflow: hidden;
+}
+.login_left{
+	width: 235px;
+	height: 150px;
+	float: left;
+}
+.input_div{
+	zoom:1;
+	position: relative;
+	margin-top: 10px;
+}
+.input_div:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+}
+.type_tlt{
+	float: left;
+	width: 65px;
+	height: 35px;
+}
+.serverTlt{
+	background: url(../images/z-fwq.png) center center no-repeat;
+}
+.userTlt{
+	background: url(../images/z-zh.png) center center no-repeat;
+}
+.passTlt{
+	background: url(../images/z-mm.png) center center no-repeat;
+}
+.selectInput,.textInput{
+	width: 134px;
+	height: 35px;
+	background: url(../images/srk1.png) center center no-repeat;
+	float: left;
+	border: none;
+	color: #dbd9da;
+	padding: 0 10px;
+	font-size: 14px;
+}
+.login_right{
+	width: 225px;
+	height: 150px;
+	float: left;
+}
+.loginInfo{
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 14px;
+	color: #ff845b;
+	-webkit-text-stroke: 0.2px #000;
+	display: block;
+}
+.startBtn{
+	width: 189px;
+	height: 50px;
+	display: block;
+	background: url(../images/ksyx.png) center center no-repeat;
+	background-position: 0 -1px;
+	text-indent: -99999px;
+	margin: 8px 0 0 17px;
+}
+.startBtn:hover{
+	background-position: 0 -51px;
+}
+.startBtn:active{
+	background-position: 0 -101px;
+}
+.tick{
+	margin-top: 10px;
+}
+.rememberText,.registerText,.forgetText{
+	height: 27px;
+	line-height: 27px;
+	font-size: 13px;
+	color: #dbd9da;
+	-webkit-text-stroke: 0.2px #000;
+}
+.registerText:hover,.forgetText:hover{
+	text-decoration: underline;
+	-webkit-text-stroke: 0px #fff;
+}
+.rememberInput{
+	-webkit-appearance: none;
+	appearance: none;
+	width: 27px;
+	height: 27px;
+	margin: 0;
+	cursor: pointer;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(../images/srk2.png) center center no-repeat;
+	position: relative;
+}
+input.rememberInput:checked::after {
+	content: url(../images/gou.png);
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	outline: none;
+}
+select.selectInput{
+	width: 154px;
+	background: #000 url(../images/srk3.png) center top no-repeat;
+	/*很关键：将默认的select选择框样式清除*/
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	outline: none;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }

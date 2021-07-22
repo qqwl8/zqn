@@ -1,0 +1,44 @@
+.onShow
+{
+/*    background:url(images/onShow.gif) no-repeat; */
+	margin-left:6px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	color:#959595;
+}
+.onFocus
+{
+/*    background:#E9F0FF url(images/onFocus.gif) no-repeat; */
+    margin-left:6px; 
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+}
+.onError
+{
+/*    background:#FFF2E9 url(images/onError.gif) no-repeat;*/
+    margin-left:6px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	color:red;
+}
+.onCorrect
+{
+    /*background:url(images/onCorrect.gif) no-repeat;*/
+    padding-left:6px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	color:#00cc00;
+	font-weight:bold;
+}
+.onLoad
+{
+/*    background:#E9FFEB url(images/onLoad.gif) no-repeat 3px 3px;*/
+    margin-left:6px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+} 

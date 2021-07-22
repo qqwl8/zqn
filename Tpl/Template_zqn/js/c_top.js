@@ -1,0 +1,1 @@
+document.writeln("<ul class=\"kv-top-img\"><li><img alt=\"\" src=\"images/19122040Z85gr_new.jpg\" /></li><li><img alt=\"\" src=\"images/spacer.gif\" data-src=\"images/17235148ufov2.jpg\" /></li></ul><ul class=\"kv-top-num\"><li></li><li></li></ul>");

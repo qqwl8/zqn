@@ -1,0 +1,180 @@
+$(document).ready(function(){
+	$("#xw").mouseover(function()
+	{
+		$("#xw").addClass("cur");
+		$("#hd").removeClass("cur");
+		$("#mt").removeClass("cur");
+		$("#zh").removeClass("cur");
+		$("#gl").removeClass("cur");
+		
+		$("#xw1").show();
+		$("#xw2").show();
+		$("#hd1").hide();
+		$("#hd2").hide();
+		$("#mt1").hide();
+		$("#mt2").hide();
+		$("#zh1").hide();
+		$("#zh2").hide();
+		$("#gl1").hide();
+		$("#gl2").hide();
+	})
+	$("#zh").mouseover(function()
+	{
+		$("#xw").removeClass("cur");
+		$("#hd").removeClass("cur");
+		$("#mt").removeClass("cur");
+		$("#zh").addClass("cur");
+		$("#gl").removeClass("cur");
+		
+		$("#xw1").hide();
+		$("#xw2").show();
+		$("#hd1").hide();
+		$("#hd2").hide();
+		$("#mt1").hide();
+		$("#mt2").hide();
+		$("#zh1").show();
+		$("#gl1").hide();
+		$("#gl2").hide();
+	})
+	$("#hd").mouseover(function()
+	{
+		$("#xw").removeClass("cur");
+		$("#hd").addClass("cur");
+		$("#mt").removeClass("cur");
+		$("#zh").removeClass("cur");
+		$("#gl").removeClass("cur");
+		
+		$("#xw1").hide();
+		$("#xw2").hide();
+		$("#hd1").show();
+		$("#hd2").show();
+		$("#mt1").hide();
+		$("#mt2").hide();
+		$("#zh1").hide();
+		$("#gl1").hide();
+		$("#gl2").hide();
+	})
+	
+	$("#mt").mouseover(function()
+	{
+		$("#xw").removeClass("cur");
+		$("#hd").removeClass("cur");
+		$("#mt").addClass("cur");
+		$("#zh").removeClass("cur");
+		$("#gl").removeClass("cur");
+		
+		$("#xw1").hide();
+		$("#xw2").hide();
+		$("#hd1").hide();
+		$("#hd2").hide();
+		$("#mt1").show();
+		$("#mt2").show();
+		$("#zh1").hide();
+		$("#gl1").hide();
+		$("#gl2").hide();
+	})
+	
+	$("#gl").mouseover(function()
+	{
+		$("#xw").removeClass("cur");
+		$("#hd").removeClass("cur");
+		$("#mt").removeClass("cur");
+		$("#zh").removeClass("cur");
+		$("#gl").addClass("cur");
+		
+		$("#xw1").hide();
+		$("#xw2").hide();
+		$("#hd1").hide();
+		$("#hd2").hide();
+		$("#mt1").hide();
+		$("#mt2").hide();
+		$("#zh1").hide();
+		$("#gl1").show();
+		$("#gl2").show();
+	})
+	
+	$("#bg_1").mouseover(function()
+	{
+		$("#bg_1").addClass("focus");
+		$("#bg_2").removeClass("focus");
+		$("#bg1").show();
+		$("#bg2").hide();
+	})
+	$("#bg_2").mouseover(function()
+	{
+		$("#bg_1").removeClass("focus");
+		$("#bg_2").addClass("focus");
+		$("#bg1").hide();
+		$("#bg2").show();
+	})
+	
+	
+	$("#wq1").mouseover(function()
+	{
+		$("#wq1").addClass("r-cur");
+		$("#wq2").removeClass("r-cur");
+		$("#wq3").removeClass("r-cur");
+		$("#wq4").removeClass("r-cur");
+		
+		$("#js1").addClass("curElem");
+		$("#js2").removeClass("curElem");
+		$("#js3").removeClass("curElem");
+		$("#js4").removeClass("curElem");
+	})
+	$("#wq2").mouseover(function()
+	{
+		$("#wq1").removeClass("r-cur");
+		$("#wq2").addClass("r-cur");
+		$("#wq3").removeClass("r-cur");
+		$("#wq4").removeClass("r-cur");
+		
+		$("#js1").removeClass("curElem");
+		$("#js2").addClass("curElem");
+		$("#js3").removeClass("curElem");
+		$("#js4").removeClass("curElem");
+	})
+	$("#wq3").mouseover(function()
+	{
+		$("#wq1").removeClass("r-cur");
+		$("#wq2").removeClass("r-cur");
+		$("#wq3").addClass("r-cur");
+		$("#wq4").removeClass("r-cur");
+		$("#js1").removeClass("curElem");
+		$("#js2").removeClass("curElem");
+		$("#js3").addClass("curElem");
+		$("#js4").removeClass("curElem");
+	})
+	$("#wq4").mouseover(function()
+	{
+		$("#wq1").removeClass("r-cur");
+		$("#wq2").removeClass("r-cur");
+		$("#wq3").removeClass("r-cur");
+		$("#wq4").addClass("r-cur");
+		$("#js1").removeClass("curElem");
+		$("#js2").removeClass("curElem");
+		$("#js3").removeClass("curElem");
+		$("#js4").addClass("curElem");
+	})
+	
+   $('#xs').mouseover(function(){
+	   $('#xs1').css("left","0px");
+	   })
+    $('#xs').mouseout(function(){
+	   $('#xs1').css("left","100%");
+	   })
+    $('#wf').mouseover(function(){
+	   $('#wf1').css("left","0px");
+	   })
+	$('#wf').mouseout(function(){
+	   $('#wf1').css("left","100%");
+	   })
+	$('#gs').mouseover(function(){
+	   $('#gs1').css("left","0px");
+	   })
+    $('#gs').mouseout(function(){
+	   $('#gs1').css("left","100%");
+	   })
+  
+});  
+
+

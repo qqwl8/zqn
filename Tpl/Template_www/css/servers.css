@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.conBox{padding-bottom:8px;background:url(../images/homeCol3T.jpg) no-repeat; position:relative;}
+.conBox h3{height:29px;line-height:29px;padding-left:30px;color:#FFF;font-size:14px;}
+
+.quick{position:absolute;right:12px;top:6px;}
+.quick p{width:220px;color:#3f91d0;height:18px;line-height:18px;}
+.quick p input{width:47px;height:16px; text-align:center;color:#666;border:1px solid #c0d9ea;margin:0 5px;float:left;}
+.quick p input.iOn{border:1px solid #00AEFF; color:#666;}
+
+.quick p span{height:18px;line-height:18px;color:#535353;float:left;}
+.quick p button{width:55px;height:18px;line-height:18px;margin-left:5px; text-align:center;background:url(../images/btn.jpg) no-repeat 0 -239px;border:none; text-indent:-999em;overflow:hidden;float:left;}
+.quick p button.bOn{background:url(../images/btn.jpg) no-repeat 0 -258px;}
+
+
+.conM{border-left:1px solid #d6e6f5;border-right:1px solid #d6e6f5;border-bottom:1px solid #d6e6f5;}
+.conM{min-height:348px;_height:348px;padding-top:15px;}
+.iPlay{height:42px;padding:13px 0 30px 35px;}
+.iPlay span{height:42px;line-height:42px;float:left;}
+.iPlay a{width:212px;height:40px;line-height:40px;margin-right:70px;font-weight:bold;font-size:14px; text-align:center;border:1px solid #d4d4d4;color:#4b4b4b;background:url(../images/aOff.gif) repeat-x;float:left;_display:inline;}
+.iPlay a em{font-size:12px;font-weight:normal;color:#0ea1e6;}
+.iPlay a:hover{border:1px solid #a9d8e9;color:#0e5e90;background:url(../images/aOn.gif) repeat-x;}
+
+.serTab{padding:0 12px 0 0;margin-bottom:20px;background:url(../images/serTab.gif) repeat-x;}
+.serTab h4{float:left;}
+.serTab h4 a{width:100px;height:31px;line-height:31px; text-align:center;font-weight:normal;color:#3892d1; font-family:Arial,"\5b8b\4f53", sans-serif; font-size:14px;background:url(../images/serBg.jpg) no-repeat 0 0;float:left;}
+.serTab h4 a:hover,.serTab h4 a.tabOn{font-weight:bold;background:url(../images/serBg.jpg) no-repeat 0 -32px;}
+.serCOn ul{}
+.serCOn ul li{width:330px;height:35px;margin-left:5px;float:left;_display:inline;}
+.serCOn li a{width:180px;height:35px;line-height:35px;padding-left:25px;font-size:14px;background:url(../images/ico.gif) no-repeat 15px -783px;float:left;color: #3e567b;}
+.serCOn li a em{color:#0ea1e6;font-size:12px;}
+.serCOn li a:hover{color:#0889d3;}
+.serCOn li var{width:30px;height:14px; margin:12px 0 0 5px;text-indent:-999em;background-image:url(../images/serstate.gif);float:left;}
+.serCOn li var.s1-1,.serCOn li var.s1-4,.serCOn li var.s1-6,.serCOn li var.s1-7,.serCOn li var.s1-8,.serCOn li var.s1-10,.serCOn li var.s1-11,.serCOn li var.s1-12{width:60px;}
+.serCOn li var.s1-0{background-position:0 -70px;}
+.serCOn li var.s1-1{background-position:0 -42px;}
+.serCOn li var.s1-2{background-position:0 -84px;}
+.serCOn li var.s1-3{background-position:0 -14px;}
+.serCOn li var.s1-4{background-position:0 -28px;}
+.serCOn li var.s1-5{background-position:0 -98px;}
+.serCOn li var.s1-6{background-position:0 -56px;}
+.serCOn li var.s1-7{background-position:0 0;}
+.serCOn li var.s1-8{background-position:0 0;}
+.serCOn li var.s1-9{background-position:0 -112px;}
+.serCOn li var.s1-10{background-position:0 -126px;}
+.serCOn li var.s1-11{background-position:0 -140px;}
+.serCOn li var.s1-12{background-position:0 -154px;}
+.serCOn li span{height:35px;line-height:35px;float:left;}
+.serCOn li.forenotice,.serCOn li.maintain{width:500px;}
+.serCOn li.forenotice span{color:#ff6000;}
+.serCOn li.maintain span{color:#666;}
+.serCOn li a.aTip1,.conM li a.aTip2{width:56px;height:19px;line-height:18px;margin:8px 0 0 5px;padding-left:0; text-align:center;font-size:12px;color:#fff;background:url(../images/aInBtn.gif) no-repeat 0 -40px;}
+.serCOn li a.aTip2{background:url(../images/aInBtn.gif) no-repeat 0 0;}
+.serCOn li a.aTip1:hover{color:#fff;background:url(../images/aInBtn.gif) no-repeat 0 -60px;}
+.serCOn li a.aTip2:hover{color:#fff;background:url(../images/aInBtn.gif) no-repeat 0 -20px;}

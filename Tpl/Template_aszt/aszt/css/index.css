@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+.top-box{
+	background:url(../img/login-top.jpg) no-repeat;
+	height:174px;	
+	padding:19px 11px 17px;
+	overflow:hidden;
+}
+.show-pic{
+	width:325px;	
+}
+.show-pic img{
+	width:325px;
+	height:17mpx;
+	display:block;	
+}
+.show-news{
+	width: 290px;
+	padding:0 5px;	
+}
+.show-news h2{
+	font:bold 14px/24px 宋体;
+	color:#bc8d3f;
+}
+.show-news li{
+	list-style:inside square;
+	color:#bc8d3f;
+	line-height:23px;
+	border-bottom:1px #443c39 dashed;	
+}
+.show-news a{
+	color:#ad8665;	
+}
+.bottom-box{
+	background:url(../img/login-bottom.jpg) no-repeat;
+	height:174px;	
+}
+.link-box{
+	width:188px;
+	height:174px;
+	padding-top: 80px;	
+}
+.link-box a{
+	width:147px;
+	height:52px;
+	display:block;
+	margin:27px 0 0 24px;	
+}
+.form-box{
+	width:496px;	
+}
+.user-name,.pass-word{
+	padding-left: 86px;
+}
+.user-name{
+	padding-top:18px;	
+}
+.pass-word{
+	padding-top:33px;	
+}
+.user-name input,.pass-word input{
+	width:165px;
+	padding:0 5px;
+	height:21px;
+	line-height:20px;
+	color:#000;
+	font-weight:bold;
+}
+#reme{
+	background:url(../img/rem.jpg) no-repeat;
+	width:97px;
+	height:23px;
+	margin:12px 0 0 100px;	
+}
+#reme_bg{
+	width:97px;
+	height:23px;
+	display:block;
+	cursor:pointer;	
+}
+.form-box .left{
+	width:251px;	
+}
+.form-box .right{
+    margin-left: 40px;
+	width:165px;	
+}
+.form-box .right span{
+
+}
+.form-box .right span a{
+	padding:0 10px;	
+}
+.form-box button{
+	width:125px;
+	height:50px;
+	display:block;
+	text-indent:-99999px;
+	cursor:pointer;
+	margin:25px 17px 10px 0;
+	_margin-right:15px;
+}
+.regAlert{
+	width:434px;
+	height:125px;
+	background:url(../img/windows.jpg) no-repeat;
+	top:125px;
+	left:120px;	
+}
+.regAlert .tits{
+	height:35px;
+	padding-left:58px;
+}
+.regAlert #colosed{
+	margin-top:2px 2px 0 0;
+	width:28px;
+	height:28px;
+	display:block;
+	float:right;
+}
+.h-2-k{
+	width:323px;
+	height:28px;
+	display:block;
+	margin-top:10px;
+	float:left;	
+}
+.regAlert .key{
+	width:250px;
+	margin:15px auto;	
+}
+.regAlert .key-text{
+	height:28px;
+	width:240px;
+	padding:0 5px;
+}
+.key-submit{
+	width:94px;
+	height:25px;
+	margin:5px 0 0 78px;
+	cursor:pointer;
+}
+.regAlert .box{
+}

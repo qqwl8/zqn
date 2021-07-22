@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+.top-box{
+	background:url(../img/logined_top.jpg) no-repeat;
+	height:160px;
+	color:#fff3ec;
+	padding:17px 20px 0;
+}
+.welcome{
+	height:22px;	
+}
+.type{
+	width:210px;
+	height:22px;
+	overflow:hidden;	
+}
+.type span{
+	width:50px;
+	padding-left:20px;
+	float:left;
+	display:inline;
+	overflow:hidden;	
+}
+.busy,.normal,.stop{
+	display:block;
+	width:95px;
+	height:30px;
+	background:url(../img/btns.png) no-repeat;
+	line-height:30px;
+	padding-left:33px;
+	padding-right:17px;	
+}
+.quick-start{
+	height:45px;
+	margin-top:38px;	
+}
+.quick-start span{
+	margin-left:210px;
+	margin-top:5px;	
+}
+.start{
+	width:125px;
+	height:45px;
+	float:right;
+	margin-right: 127px;
+}
+.busy{
+	background-position:0 -79px;	
+}
+.normal{
+	background-position:0 -116px;	
+}
+.stop{
+	background-position:0 -153px;	
+}
+.bottom-box{
+	background:url(../img/logined_bottom.jpg) no-repeat;
+	height:206px;
+	overflow:hidden;	
+}
+.tab{
+	height:25px;
+	margin-top:5px;
+	margin-left:18px;	
+}
+.tab li{
+	height:25px;	
+}
+.tab li a{
+	background:url(../img/btns.png) no-repeat;
+	width:91px;
+	height:21px;
+	line-height:19px;
+	padding:0 10px;
+	display:block;
+	text-align:center;
+	margin-top:3px;
+	margin-bottom:0;	
+}
+.tab li a:hover{
+	background-position:0 -23px;	
+}
+.tab li.hover a,.tab li.hover a:hover{
+	height:22px;
+	padding-top:3px;
+	background-position:0 -47px;
+	margin:0px;
+	line-height:18px;	
+}
+.tab li{
+	float:left;
+	margin-right:1px;	
+}
+.servers-list{	
+	padding:10px 20px;
+	height:140px;
+	overflow-y:auto;
+	width: 530px;
+	margin:0 auto;
+	margin-top:5px;	
+}
+.servers-list li{
+	margin:15px 0 0 20px;
+	float:left;
+	display:inline;	
+}

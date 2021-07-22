@@ -1,0 +1,263 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.safe_top { width:624px; float:left; clear:both; overflow:hidden; border:1px solid #dedede;margin-bottom:20px; padding:8px 0; padding-left:24px; margin-top:10px;}
+.safe_top li { width:600px; height:36px; float:left; clear:both; line-height:38px; padding-left:24px;}
+
+.safe_1 { background:url(../images/safe_1.gif) no-repeat left center; font:bold 12px Arial; color:#900;}
+.safe_1 span { padding-left:10px;}
+.safe_2 { background:url(../../images/passport/register_mail_ok_03.gif) no-repeat left center;}
+.safe_2 span { float:left; height:25px; color:#434343;}
+.safe_2 div { float:left; width:217px; height:18px; margin-top:10px;}
+.safe_3 { background:url(../../images/passport/register_mail_ok_06.gif) no-repeat left center;}
+.safe_3 span { float:left; line-height:36px;}
+.safe_3 .sf_1 { background:url(../../images/passport/register_mail_ok_07.gif) no-repeat left center; padding-left:24px; padding-right:20px;}
+.safe_3 .sf_2 { background:url(../../images/passport/register_mail_ok_08.gif) no-repeat left center; padding-left:24px; padding-right:20px;}
+.safe_3 .sf_3 { background:url(../../images/myindex/idcard.gif) no-repeat left center; padding-left:24px; padding-right:20px;}
+
+
+.safe_pro_box { width:534px; height:98px; margin:0 auto; clear:both; overflow:hidden; border-bottom:1px dashed #CCCCCC; padding:18px;}
+.spb { border-bottom:none; margin-bottom:50px;}
+.pbox {  width:109px; height:97px; float:left; overflow:hidden;}
+
+.pro1 { background:url(../images/g_1.gif) no-repeat;}
+.pro2 { background:url(../images/g_2.gif) no-repeat;}
+.pro3 { background:url(../images/g_3.gif) no-repeat;}
+.pro4 { background:url(../images/g_4.gif) no-repeat;}
+
+.p_right { float:left; width:396px; height:98px; padding-left:28px;}
+.p_right h2 { width:396px; height:40px; font-size:14px; text-align:left; line-height:40px; float:left; overflow:hidden; color:#434343;}
+.p_right p { width:396px; height:58px; float:left; clear:both; overflow:hidden; line-height:28px; color:#434343;}
+.p_right p span { color:#F00;}
+.p_right p b { color:#090; font-weight:100;}
+
+.inbox_of_safe { width:650px !important; padding:0 24px 0 23px;}
+
+.safe_step_cont { width:650px; height:40px; float:left; clear:both; overflow:hidden; border-bottom:1px solid #d3d3d3; padding-top:18px; margin-bottom:20px;}
+.safe_step_cont div { width:100%; height:22px; text-align:center;}
+
+.safe_form1 { width:470px; margin:0 auto; overflow:hidden; clear:both; overflow:hidden;}
+.safe_form1 .safe_sp { width:470px; height:60px; line-height:60px; text-align:center; color:#434343; font-size:14px;}
+.safe_form1 .safe_sp span { color:#F00; padding:0 15px;}
+.sf_inp1 { width:470px; height:25px; float:left; clear:both; overflow:hidden;}
+.sf_inp1 label { width:121px; height:25px; line-height:25px; float:left; text-align:right; color:#434343; font-size:14px; padding-right:8px;}
+.sf_inp1 input { width:174px; height:23px; float:left; line-height:23px; border:1px solid #dadada; color:#666; padding:0 3px; overflow:hidden;}
+.sf_inp1 span { width:149px;height:25px; line-height:25px;font-size:12px; float:left; padding-left:10px; color:#F00;}
+.sf_inp2 { width:470px; height:37px; float:left; clear:both; overflow:hidden; padding-top:20px;}
+.sf_inp2 input { width:89px; height:37px; cursor:pointer; background:url(../images/next_bt.gif) no-repeat; border:none; float:left; margin-left:200px; text-indent:-9999px;}
+
+
+.sf_inp3 { width:470px; height:25px; float:left; clear:both; overflow:hidden;}
+.sf_inp3 label { width:171px; height:25px; line-height:25px; float:left; text-align:right; color:#434343; font-size:14px; padding-right:8px;}
+.sf_inp3 input { width:174px; height:23px; float:left; line-height:23px; border:1px solid #dadada; color:#666; padding:0 3px; overflow:hidden;}
+.sf_inp3_ero { width:470px; height:40px; float:left; clear:both; overflow:hidden; line-height:40px; text-align:center; color:#F00;}
+.sf_inp3_ero .error { padding-left:20px; line-height:25px;}
+
+
+
+
+.reg_info { width:520px; float:left; overflow:hidden; clear:both; padding-top:15px; padding-bottom:30px; display:inline; padding-left:100px;}
+.reg_info h4 { width:500px; height:56px; line-height:56px; text-align:left;font-family:"微软雅黑","Microsoft YaHei"; font-size:16px; font-weight:bold; color:#a40000;}
+.reg_info p { width:500px; float:left; clear:both; overflow:hidden; line-height:26px; text-align:left; font-size:14px; color:#434343; margin-bottom:15px;}
+.reg_info p span { padding:0 8px; color:#ff0000;}
+
+.reg_info form { width:440px; float:left; clear:both; overflow:hidden; margin-bottom:25px; height:90px;}
+.reg_info form .inp { width:440px; height:25px; float:left; clear:both;}
+
+.reg_info form .inp label { width:80px; height:25px; line-height:25px; font-size:14px; text-align:right; padding-right:19px; color:#434343; float:left;}
+.reg_info form .inp label span { color:#F00;}
+.reg_info form .inp input { width:150px; height:23px; border:1px solid #d0cfd0; padding:0 3px; line-height:23px; text-align:left; color:#a0a0a0; float:left;}
+.reg_info form .inp b { height:25px; float:left; line-height:25px; color:#F00; font-size:12px; padding-left:8px; font-weight:100;}
+
+.go_phone { width:89px; height:37px; float:left; clear:both; overflow:hidden;}
+.go_phone:link,.go_phone:visited { background:url(../images/next_bt.gif) no-repeat top; }
+.go_phone:active,.go_phone:hover { background:url(../images/next_bt.gif) no-repeat bottom; }
+
+.go_mail { width:219px; height:35px; float:left; clear:both; overflow:hidden;}
+.go_mail:link,.go_mail:visited { background:url(../images/bd_mail_bt.gif) no-repeat top; }
+.go_mail:active,.go_mail:hover { background:url(../images/bd_mail_bt.gif) no-repeat bottom; }
+
+
+.reg_info2 { width:568px; height:90px; border:1px solid #dddddd; float:left; clear:both; overflow:hidden;padding:20px 40px;display:inline; margin-bottom:24px;}
+.reg_info2 h5 { width:300px; height:30px; line-height:30px; text-align:left; font-size:12px; font-weight:bold; color:#434343; background:url(../../images/passport/reg_s4.gif) no-repeat left 9px; padding-left:20px;}
+.reg_info2 p { line-height:26px; text-align:left; color:#434343;}
+.reg_info2 p span { padding:0 5px;}
+
+
+.complete_cont { width:470px; margin:0 auto; overflow:hidden; clear:both; overflow:hidden;}
+.complete_cont  p { width:100%; font-size:16px; line-height:30px; font-family:"微软雅黑","Microsoft YaHei"; color:#900; text-align:center; font-weight:bold;}
+.complete_cont  p span { font-size:12px; color:#999; font-weight:100;}
+
+
+
+
+
+.safe_form2 { width:600px; margin:0 auto; overflow:hidden; clear:both; overflow:hidden;}
+.safe_form2 .safe_sp { width:600px; height:60px; line-height:60px; text-align:center; color:#434343; font-size:14px;}
+.safe_form2 .safe_sp span { color:#F00; padding:0 15px;}
+
+
+.safe_form2 .find_box { width:213px; height:151px; float:left; overflow:hidden; margin-left:55px; margin-bottom:200px;border:1px solid #dcdcdc; cursor:pointer;}
+.find_box h2 { width:165px; height:39px; float:left; clear:both; overflow:hidden; border-bottom:1px solid #dcdcdc; padding-left:48px; padding-top:9px;}
+.find_box h2 b { float:left; clear:both; overflow:hidden; color:#454545; font-size:14px; height:16px; line-height:16px;}
+.find_box h2 span {float:left; clear:both; overflow:hidden; font-weight:100; color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; font-size:12px; height:14px; line-height:14px; width:165px}
+.find_box p { width:173px; font-size:14px; text-align:left; float:left; clear:both; overflow:hidden; line-height:30px; color:#959595; padding:0 20px; padding-top:8px;}
+.find_box p span { color:#F00;}
+
+.safe_form2 .find_box2 { width:213px; height:151px; float:left; overflow:hidden; margin-left:55px; margin-bottom:200px;border:1px solid #dcdcdc; background:#f4f4f4}
+.find_box2 h2 { width:165px; height:39px; float:left; clear:both; overflow:hidden; border-bottom:1px solid #dcdcdc; padding-left:48px; padding-top:9px;}
+.find_box2 h2 b { float:left; clear:both; overflow:hidden; color:#454545; font-size:14px; height:16px; line-height:16px;}
+.find_box2 h2 span {float:left; clear:both; overflow:hidden; font-weight:100; color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; font-size:12px; height:14px; line-height:14px; width:165px;}
+.find_box2 p { width:173px; font-size:14px; text-align:left; float:left; clear:both; overflow:hidden; line-height:30px; color:#959595; padding:0 20px; padding-top:8px;}
+.find_box2 p span { color:#F00;}
+
+.f_s1 { background:url(../../images/repassword/f_s1.gif) no-repeat 10px 10px;}
+.f_s2 { background:url(../../images/repassword/f_s2.gif) no-repeat 10px 10px;}
+.f_s3 { background:url(../../images/repassword/f_s3.gif) no-repeat 10px 10px;}
+.find_box:link,.find_box:visited { background:url(../../images/repassword/find_box_bg.jpg) #ffffff bottom repeat-x; border:1px solid #dcdcdc;}
+.find_box:active,.find_box:hover { background:url(../../images/repassword/find_box_bg2.jpg) #f5f5f5 bottom repeat-x;border:1px solid #dcdcdc; }
+
+
+.safe_form3 { width:650px; margin:0 auto; overflow:hidden; clear:both; overflow:hidden;}
+.safe_form3 .safe_sp { width:650px; height:60px; line-height:60px; text-align:center; color:#434343; font-size:14px;}
+.safe_form3 .safe_sp span { color:#F00; padding:0 15px;}
+
+.safe_form3 .find_box { width:203px; height:151px; float:left; overflow:hidden; margin-left:10px; margin-bottom:200px;border:1px solid #dcdcdc; cursor:pointer;}
+.safe_form3 .find_box h2 { width:155px; height:39px; float:left; clear:both; overflow:hidden; border-bottom:1px solid #dcdcdc; padding-left:48px; padding-top:9px;}
+.safe_form3 .find_box h2 b { float:left; clear:both; overflow:hidden; color:#454545; font-size:14px; height:16px; line-height:16px;}
+.safe_form3 .find_box h2 span {float:left; clear:both; overflow:hidden; font-weight:100; color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; font-size:12px; height:14px; line-height:14px; width:155px}
+.safe_form3 .find_box p { width:163px; font-size:14px; text-align:left; float:left; clear:both; overflow:hidden; line-height:30px; color:#959595; padding:0 20px; padding-top:8px;}
+.find_box p span { color:#F00;}
+
+
+.safe_form3 .find_box2 { width:203px; height:151px; float:left; overflow:hidden; margin-left:10px; margin-bottom:200px;border:1px solid #dcdcdc; background:#f4f4f4}
+.safe_form3 .find_box2 h2 { width:155px; height:39px; float:left; clear:both; overflow:hidden; border-bottom:1px solid #dcdcdc; padding-left:48px; padding-top:9px;}
+.safe_form3 .find_box2 h2 b { float:left; clear:both; overflow:hidden; color:#454545; font-size:14px; height:16px; line-height:16px;}
+.safe_form3 .find_box2 h2 span {float:left; clear:both; overflow:hidden; font-weight:100; color:#a0a0a0; font-family:Arial, Helvetica, sans-serif; font-size:12px; height:14px; line-height:14px; width:155px;}
+.safe_form3 .find_box2 p { width:163px; font-size:14px; text-align:left; float:left; clear:both; overflow:hidden; line-height:30px; color:#959595; padding:0 20px; padding-top:8px;}
+.safe_form3 .find_box2 p span { color:#F00;}
+
+
+
+
+
+
+
+.find4_form { width:422px; margin:0 auto; padding-top:30px; margin-bottom:200px;}
+.find4_form h3 { width:422px; height:60px; line-height:40px; text-align:center; color:#666; font-size:14px;}
+
+.fin4_inp1 { width:422px; height:25px; float:left; clear:both; overflow:hidden; margin-bottom:10px;}
+
+.fin4_inp1 label { width:80px; height:25px; line-height:25px; font-size:14px; text-align:right; padding-right:19px; color:#434343; float:left;}
+.fin4_inp1 label span { color:#F00;}
+.fin4_inp1 input { width:282px; height:23px; border:1px solid #d0cfd0; padding:0 3px; line-height:23px; text-align:left; color:#a0a0a0; float:left;}
+.fin4_safe { width:323px; height:25px; float:left; clear:both; margin-bottom:10px; padding-left:99px; line-height:25px;}
+.fin4_safe span { float:left; height:25px; color:#434343;}
+.fin4_safe div { float:left; width:217px; height:18px; margin-top:3px;}
+.level_0 { background:url(../../images/passport/level.gif) no-repeat 0 top}
+.level_1 { background:url(../../images/passport/level.gif) no-repeat 0 -18px}
+.level_2 { background:url(../../images/passport/level.gif) no-repeat 0 -36px}
+.level_3 { background:url(../../images/passport/level.gif) no-repeat 0 -54px}
+
+.fin_error {width:322px; height:25px; float:left; clear:both; overflow:hidden; padding-left:100px;}
+.fin_error .error {float:left; line-height:25px; padding-left:20px;}
+
+.fin4_inp2 { width:422px; height:37px; float:left; clear:both; overflow:hidden; margin-bottom:10px;}
+.fin4_inp2 input { width:89px; height:37px; float:left; clear:both; overflow:hidden; background:url(../../images/repassword/find4_ok.jpg) no-repeat; border:none; margin-left:170px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.r_step5_1 { background:url(../images/step5.gif) no-repeat center top;}
+.r_step5_2 { background:url(../images/step5.gif) no-repeat center 0px;}
+.r_step5_3 { background:url(../images/step5.gif) no-repeat center -22px;}
+.r_step5_4 { background:url(../images/step5.gif) no-repeat center -44px;}
+
+.r_step6_1 { background:url(../images/step6.gif) no-repeat center top;}
+.r_step6_2 { background:url(../images/step6.gif) no-repeat center 0px;}
+.r_step6_3 { background:url(../images/step6.gif) no-repeat center -22px;}
+.r_step6_4 { background:url(../images/step6.gif) no-repeat center -66px;}
+
+
+.r_step7_1 { background:url(../images/step7.gif) no-repeat center top;}
+.r_step7_2 { background:url(../images/step7.gif) no-repeat center -22px;}
+.r_step7_3 { background:url(../images/step7.gif) no-repeat center -44px;}
+.r_step7_4 { background:url(../images/step7.gif) no-repeat center -66px;}
+
+.r_step8_1 { background:url(../images/step8.gif) no-repeat center top;}
+.r_step8_2 { background:url(../images/step8.gif) no-repeat center -22px;}
+.r_step8_3 { background:url(../images/step8.gif) no-repeat center -44px;}
+.r_step8_4 { background:url(../images/step8.gif) no-repeat center -66px;}
+.r_step8_5 { background:url(../images/step8.gif) no-repeat center -88px;}
+
+.r_step9_1 { background:url(../images/step9.gif) no-repeat center top;}
+.r_step9_2 { background:url(../images/step9.gif) no-repeat center -23px;}
+.r_step9_3 { background:url(../images/step9.gif) no-repeat center -45px;}
+
+.r_step10_1 { background:url(../images/step10.gif) no-repeat center top;}
+.r_step10_2 { background:url(../images/step10.gif) no-repeat center -22px;}
+.r_step10_3 { background:url(../images/step10.gif) no-repeat center -44px;}
+.r_step10_4 { background:url(../images/step10.gif) no-repeat center -66px;}
+
+.r_step11_1 { background:url(../images/step11.gif) no-repeat center top;}
+.r_step11_2 { background:url(../images/step11.gif) no-repeat center -22px;}
+.r_step11_3 { background:url(../images/step11.gif) no-repeat center -44px;}
+
+
+/*找回密码*/
+.lose{ border:1px solid #cedff5;margin-left: -100px; width:668px;}
+.lose { background:#e8f1fc; /*height:44px;*/ border-bottom:1px solid #cedff5; padding:11px 0 0 26px;}
+.lose span{display:block; height:35px; line-height:35px; background-image:url(../images/5.png); text-align:center;margin-left:-15px; float:left;}
+.lose span.s0{ width:170px; font-size:14px; font-weight:bold; color:#fff; background-position:0 -105px;}
+.lose span.s1{ width:139px;background-position:0 0;}
+.lose span.s2{ width:139px;background-position:0 0px;}
+.lose span.s3{ width:115px;background-position:0 -70px;}
+.lose span.s4{ width:115px;background-position:0 -70px;}
+.lose span.s01{ width:139px;background-position:-173px 0; color:#fff;}
+.lose span.s02{ width:139px;background-position:-173px 0px;color:#fff;}
+.lose span.s03{ width:115px;background-position:-173px -70px;color:#fff;}
+.lose span.s04{ width:115px;background-position:-173px -70px;color:#fff;}
+.lose li{ margin-bottom:12px;}
+.lose li label{ width:180px; text-align:right; display: inline-block;}
+.lose li span{ color:#90a0b5; display:inline-block;}
+.lose li span a{color:#90a0b5; }
+.lose li img{ margin-top:-7px; }
+.lose .text2{ width:100px; height:29px; border:none; color:#fff; background:url(../images/b1.jpg) -200px -268px; font-size:14px; font-weight:bold; margin:20px 0 0 220px; line-height:29px;}
+.lose .text3{ width:120px; height:29px; border:none; color:#fff; background:url(../images/b1.jpg) 0 -268px; font-size:14px; font-weight:bold; margin:20px 0 0 220px; line-height:29px;}
+.lose .text4{ width:100px; height:29px; border:none; color:#fff; background:url(../images/b1.jpg) -200px -268px; font-size:14px; font-weight:bold; margin:20px 0 0 10px; line-height:29px;}
+.lose h5{ font-size:14px; }
+.lose dd h5 span{ color:#f60;}
+.lose h5.wrong{ color:#f00;}
+.notice {background: url(../images/icons.jpg) no-repeat 0 -17px;}
+.warm {color: #F60;margin-left: 190px;font-size: 12px;padding-left: 18px;line-height: 30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

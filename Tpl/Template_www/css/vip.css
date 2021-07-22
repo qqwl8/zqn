@@ -1,0 +1,76 @@
+@charset "utf-8"; 
+.clearfix:before,.clearfix:after{content:'';display: table;}
+.clearfix:after{clear: both;}
+.clearfix,.vip_con,.vipWrap{*zoom: 1;}
+.vip_con:after,.vipWrap:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+/*a{color:#595959;}*/
+/*框架*/
+.vipWrap{width:960px;margin:0 auto 10px;background:#fff;border-top:2px solid #008ef2;font:12px/1.8 Microsoft YaHei;color:#242424;}
+
+.vip_title{border-bottom:2px solid #f2f2f2;height:37px;font:500 16px/37px Microsoft YaHei;padding:0 18px 0 31px;color:#595959;background:url(../images/vip_icon.png) 18px 0 no-repeat;}
+.vip_con{padding:20px 0 50px;}
+
+/*登录*/
+.vip_login{padding:10px 18px;text-align:center;width:119px;float:left;}
+.vip_login dd{padding-top:3px;font-size:14px;font-weight:700;}
+/*vip等级*/
+.gr_progress_con{padding:10px 0;width:745px;float:left;}
+.gr_progress_bar{height:90px;}
+.progress_text{float:left;font-size:15px;}
+.progress_text span{color:#ed1600;}
+.vip_btn{background:url(../images/vip_icon.png) 0 -258px no-repeat;display:block;float:right;width:124px;height:32px;text-align:center;font:700 14px/32px simsun;color:#fff;}
+.vip_btn:hover{background-position:0 -291px;color:#fff;}
+
+/*等级*/
+.gr_progress_bar{height:79px;font:700 12px/1.5 Arial;position:relative;}
+.progress_vip{height:32px;overflow:hidden;}
+.progress_vip span{padding:4px 0 0;height:28px;color:#fff;display:block;*display:inline;float:left;text-align:center;background:url(../images/vip_icon.png) no-repeat;width:50px;margin:0 3px;}
+.progress_vip .v_v,.progress_vip .v_1,.progress_vip .v_2,.progress_vip .v_3{background-position:0 -34px;}
+.progress_vip .v_4,.progress_vip .v_5,.progress_vip .v_6,.progress_vip .v_7{background-position:0 -66px;}
+.progress_vip .v_8,.progress_vip .v_9,.progress_vip .v_10,.progress_vip .v_11,.progress_vip .v_12{background-position:0 -98px;}
+.progress_t span{color:#bebebe;width:50px;display:block;*display:inline;float:left;margin:0 3px;text-align:center;}
+.progress_bar{position:relative;margin:2px 0;height:8px;}
+.progress_gray{width:745px;background:url(../images/vip_bar_bg.png) repeat-x;height:8px;border:1px solid #a7a7a7;border-width:0 1px;overflow:hidden;position:absolute;z-index:5;}
+
+.progress_red{background:url(../images/vip_bar_bg_hover.png) repeat-x;border-left:1px solid #c74f00;position:absolute;top:0;left:0;height:8px;overflow:hidden;z-index:10;}
+.vip_flash{position:absolute;top:-80px;}
+/*当前等级*/
+.vip_tips1 .progress_vip .v_1,.vip_tips2 .progress_vip .v_2,.vip_tips3 .progress_vip .v_3,
+.vip_tips4 .progress_vip .v_4,.vip_tips5 .progress_vip .v_5,.vip_tips6 .progress_vip .v_6,
+.vip_tips7 .progress_vip .v_7,.vip_tips8 .progress_vip .v_8,.vip_tips9 .progress_vip .v_9{padding:2px 0 0;height:30px;}
+.vip_tips1 .progress_vip .v_1,.vip_tips2 .progress_vip .v_2,.vip_tips3 .progress_vip .v_3{background-position:0 -130px;}
+.vip_tips4 .progress_vip .v_4,.vip_tips5 .progress_vip .v_5,.vip_tips6 .progress_vip .v_6{background-position:0 -162px;}
+.vip_tips7 .progress_vip .v_7,.vip_tips8 .progress_vip .v_8,.vip_tips9 .progress_vip .v_9{background-position:0 -194px;}
+
+
+/*成长体系*/
+.system_text{font-size:18px;padding-left:33px;}
+.system_text span{color:#e23c0a;}
+.gr_value_intro{background:url(../images/gr_intro_banner.png) 0 0 no-repeat;height:437px;margin:0 0 0 9px;position:relative;}
+.gr_value_tips{background:url(../images/gr_intro_tips.png) no-repeat;position:absolute;padding:13px 13px 0;width:109px;height:96px;z-index:100;font-size:13px;line-height:20px;font-weight:700;}
+.gr_value_tips span{color:#f84123;}
+/*提醒*/
+.gr_remind{margin:55px 0 0 35px;overflow:hidden;height:88px;}
+.gr_remind dt{float:left;width:88px;height:88px;}
+.gr_remind dd{float:left;padding-left:20px;*display:inline;font-size:15px;color:#727171;line-height:27px;}
+.gr_remind .tit{font-size:21px;}
+.gr_remind dd span{color:#e23c0a;}
+/*详细说明*/
+.vip_list{padding:10px 0 0 55px;color:#727171;}
+.vip_list span{color:#f7391d;}
+.v_p{padding-left:20px;}
+/*top*/
+.fixedbtn{position:fixed;left:50%;margin-left:500px;top:160px;z-index:9999;_position:absolute;
+_top: expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,20)||20)-(parseInt(this.currentStyle.marginBottom,350)||350)))}
+.fixedbtn p a{background:url(../images/vip_icon.png) no-repeat;width:62px;height:32px;display:block;padding-top:40px;text-align:center;color:#008ef2;}
+.fixedbtn p a:hover,.fixedbtn p a.cur{color:#fff;}
+.fixedbtn .my a{background-position:0 -324px;}
+.fixedbtn .my a:hover,.fixedbtn .my .cur{background-position:0 -614px;}
+.fixedbtn .rebate a{background-position:0 -397px;}
+.fixedbtn .rebate a:hover,.fixedbtn .rebate .cur{background-position:0 -687px;}
+.fixedbtn .explain a{background-position:0 -469px;}
+.fixedbtn .explain a:hover,.fixedbtn .explain .cur{background-position:0 -759px;}
+.fixedbtn .top a{background-position:0 -541px;}
+.fixedbtn .top a:hover,.fixedbtn .top .cur{background-position:0 -831px;}
+.fixedbtn .explain2 a{background-position:0 -903px;}
+.fixedbtn .explain2 a:hover,.fixedbtn .explain2 .cur{background-position:0 -975px;}

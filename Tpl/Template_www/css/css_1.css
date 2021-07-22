@@ -1,0 +1,215 @@
+﻿@charset "utf-8";
+*{margin:0px;padding:0px;}
+body{background:url(../images/bg.jpg) center top no-repeat;background-color:#FFF;font:14px/25px "微软雅黑";color:#7b7a7a;}
+a{color:#7b7a7a;text-decoration:none;cursor:pointer;}
+a:hover{text-decoration:none;color:#F00;}
+ul,li{list-style:none;}
+img{border:0;}
+.clear{clear:both;}
+.f_l{float:left;}
+.f_r{float:right;}
+.red{color:#F00;}
+.orange{color:#f17302;}
+.green{color:#6ec117;}
+.padtop15{padding-top:12px;}
+.underline{text-decoration:underline;}
+.wordsize{}
+
+.paytop{width:980px;height:100%;margin:0 auto;position:relative;}
+  .ptop{width:980px;height:87px;overflow:hidden;}
+  .ptopl{width:628px;}
+    .logo a{display:block;width:238px;height:85px; background:url(../images/logo.jpg) 0px 12px no-repeat;text-indent:-999em;}
+	.toptitle{width:98px;height:70px;background:none;padding:24px 0 0 2px;}
+	 .pay{font-size:24px;font-weight:normal;font-family:"微软雅黑";line-height:40px;color:#323232;text-shadow:1px 1px 0 #FFF;}
+	 .payeng{line-height:20px;}
+  .ptopr{width:345px;}
+    .nav{width:345px;height:25px;line-height:25px;text-align:right;padding-top:22px;}
+    .nav a{margin-left:15px;color:#433b3b;text-shadow: 1px 1px 0px #FFF;}
+	.nav a:hover{color:#e34f00;}
+	.callkf{width:345px;height:30px;line-height:30px;text-align:right;padding-top:5px;}
+	 .kefu{height:30px;}
+	 .login{height:30px;line-height:40px;padding-right:15px;text-shadow: 1px 1px 0px #FFF;}
+	   .login a{color:#ea5505;}
+	   .login a:hover{color:#ea5505;text-decoration:underline;}
+	 .service{width:93px;height:27px;margin-top:3px;}
+	 .service a{display:block;width:93px;height:27px;background:url(../images/button.jpg) 0px 0px no-repeat;text-indent:-999em;}
+     .service a:hover{background:url(../images/button.jpg) 0px -27px no-repeat;}
+ 
+ .middle{width:978px;border-top:3px solid #ea5505;border-left:1px solid #dddddd;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;background:#ededed;}	
+	.middle_l{width:197px;background:url(../images/prebg.jpg) 0 0 repeat-y;}
+	  .modetitle{width:196px;height:60px;background:url(../images/title.jpg) 22px 20px no-repeat;text-indent:-999em;}
+	  .mode ul li{width:153px;height:50px;line-height:50px;padding-left:51px;margin:6px 0;background:url(../images/pre_bga.jpg) 0px 0px no-repeat;}	
+		.mode ul li a{display:block;width:153px;height:50px;color:#433b3b;}
+		.mode ul li a:hover{color:#ea5505;}	   
+		.mode ul .this{background:url(../images/pre_bghover.jpg) no-repeat;}		
+		.mode ul .this a{color:#ea5505;}
+		/*.mode ul .li_1{background-position:0 0;}!*微信*!*/
+		.mode ul .li_1{background-position:0 0;}/*财务通*/
+		.mode ul .li_2{background-position:0 -52px;}/*支付宝*/
+		.mode ul .li_3{background-position:0 -105px;} /*网银*/
+		.mode ul .li_4{background-position:0 -157px;}/**/
+		.mode ul .li_5{background-position:0 -209px;}/**/
+		.mode ul .li_6{background-position:0 -262px;}/**/
+		.mode ul .li_7{background-position:0 -314px;}/**/
+		.mode ul .li_8{background-position:0 -366px;}/**/
+		.mode ul .li_9{background-position:0 -419px;}/**/
+		.mode ul .li_10{background-position:0 -472px;}/**/
+		.mode ul .li_11{background-position:0 -525px;}
+		.mode ul .li_12{background-position:0 -578px;}
+		.mode ul .li_13{background-position:0 -631px;}
+		.mode ul .li_14{background-position:0 0;}
+		.mode ul .li_15{background-position:0 -105px;}
+		.mode ul .li_16{background-position:0 -578px;}/*公用*/		
+	.middle_r{width:781px;background:#FFF;}
+	 .content{width:720px;min-height:720px;margin:0 auto;}
+	
+	.main_payFor{width: 720px;height: 32px;font-size: 15px;line-height: 32px;text-align: left;} 
+	  .main_title{width:86px;height: 32px;font-size: 15px;line-height: 32px;text-align: left;}
+	  .main_payFor .pay_platform_game{margin:0 5px;height:28px;width:94px;padding: 0 4px;border:2px solid red;}
+	  .main_payFor .pay_platform_platform{margin:0 5px;height:28px;width:152px;padding: 0 4px;}
+	  .main_payFor_top a{width:138px;height: 32px;float: left;display: block;padding: 0 0 0 32px;margin: 0px 65px 0px 0;background: url(../images/radio.png) no-repeat 0 -14px;line-height: 32px;font-size: 15px;cursor: pointer;}
+	  .main_payFor_top a.on{background: url(../images/radio.png) no-repeat 0 -50px;color: #6ca200;}	  	  
+	  .main_payFor_top a:hover{background: url(../images/radio.png) no-repeat 0 -50px;color: #6ca200;text-decoration: underline;}	  
+	 .main_ptNotice{width:370px;height: 44px;display: none;overflow: hidden;padding-left: 107px;border: 1px solid #59c8d5;line-height: 44px;font-size: 14px;} 
+   .main_title1{width: 720px;height: 32px;font-size: 15px;line-height: 32px;text-align: left;}	  
+	.main_select{width:635px;height:44px;padding:0 0 0 69px;position:relative;z-index:400;}
+	.main_select div.main_select{width:144px;height:44px;position:absolute;padding:0 48px 0 44px;background-image:url(../images/select.png);top:0;line-height:44px;text-align:center;font-size:16px;color:#333;cursor:pointer;}
+	.main_select_game{left:69px;background-position:-10px -64px;}
+	.main_select_server{left:341px;background-position:-10px -10px;}
+	.main_select div.main_select_on{width:176px;padding:0 48px 0 12px;background-position:-10px -118px;}
+	.main_select div .select_on{width:22px;height:44px;display:block;float:left;background:url(../images/select_on.jpg) no-repeat 0 50%;}
+	.alert_arrow{width:13px;height:11px;display:none;overflow:hidden;position:absolute;background:url(../images/arrow.jpg) no-repeat;top:45px;left:158px;z-index:900;}
+    /*选择游戏弹窗*/
+		.arrow_server{left:424px;}
+		.alert_select{	width:600px;height:222px;display:none;overflow:hidden;position:absolute;background:#fff;border:1px solid #a0b601;top:55px;left:69px;z-index:800}
+		.alert_select_title{width:600px;height:30px;overflow:hidden;background:#c1d71d;}
+		.alert_select_close{width:22px;height:22px;display:inline;float:right;overflow:hidden;margin:4px 5px 4px 0;background:url(../images/alert_close.jpg) no-repeat;cursor:pointer;}
+		.alert_select_title ul{width:560px;height:28px;overflow:hidden;float:left;padding:2px 0 0;}
+		.alert_select_title ul li{width:64px;height:28px;float:left;line-height:28px;text-align:center;font-size:14px;}
+		.alert_game,.alert_server{cursor:pointer;}
+		.alert_select_title ul li.on{background:url(../images/alert_btn.png) no-repeat -10px -42px;color:#6ca200;}
+		.alert_select_title ul.alert_server_sort li{width:92px;}
+		.alert_select_title ul.alert_server_sort li.on{background:url(../images/alert_btn.png) no-repeat -7px -7px;color:#6ca200;}
+		.alert_select_title ul li.his_game{width:64px;margin:0 0 0 8px;}
+		.alert_select_title ul li.sept{width:12px;background:url(../images/alert_sept.jpg) no-repeat 50%;}
+		.alert_list{width:594px;height:182px;padding:5px 0;margin:0 0 0 6px;overflow-y:auto;}
+		.alert_list a{width:158px;height:30px;font-size:12px;display:block;float:left;padding:0 0 0 32px;background:url(../images/radio.png) no-repeat 0 -11px;line-height:34px;cursor:pointer;}
+		.alert_list a.on,.alert_list a:hover{background:url(../images/radio.png) no-repeat 0 -47px;text-decoration:underline;color:#6ca200}
+		.alert_pinyin_list{width:530px;padding:5px 0 0 10px;float:left;overflow:hidden;}
+		.game_list a{width:100px;}
+   /*帐号确认*/
+	.main_user{padding:15px 0;position:relative;}
+	.main_user_account,.main_user_input{width:500px;height:32px;top:16px;left:0;z-index:1;}
+	.main_user_account .change_user,.main_user_account .change_user a,.main_user_input .change_user,.main_user_input .change_user a{color:#6ca200;cursor:pointer;}
+	.main_user_account span{float:left;}
+	.main-account-width{width:220px;height:32px;display:block;overflow:hidden;}
+	.main_user_input{display:none;}
+	.main_user_input .user_input,.main_user_role .user_role,.main_input_input,.mibile_input{width:172px;height:26px;float:left;overflow:hidden;padding:0 5px;margin:0 0 0 5px;border:1px solid #c7c7c7;line-height:26px;}
+	.main_mobile_phone span,.main_user_input span,.main_user_role span,.main_input_span{float:left;display:block;}
+	.main_user_role{width:340px;height:32px;position:absolute;top:32px;left:360px;z-index:1;}
+	.main_user_role .user_role{border-right:0;}
+	.main_user_role .change_role{width:34px;height:28px;float:left;background:url(../image/user_select.jpg) no-repeat;cursor:pointer;}
+	.user_role_list{width:215px;position:absolute;display:none;overflow:hidden;padding:2px 0 0;background:#fff;border:1px solid #c7c7c7;border-top:0;top:26px;left:69px;z-index:1000;}
+	@-moz-document url-prefix(){.user_role_list{left:68px;}}
+	.user_role_list a{width:205px;height:24px;display:block;overflow:hidden;padding:0 5px;cursor:pointer;line-height:24px;font-size:14px;}
+	.user_role_list a:hover{background:#eee;}
+	.user_role_notice{width:340px;position:absolute;top:34px;left:0;z-index:600;line-height:24px;font-size:12px;}
+	
+	.main_money{width:636px;padding:0 0 0 24px;}
+	.main_money_a{width:94px;height:32px;float:left;display:block;padding:0 0 0 32px;background:url(../images/radio.png) no-repeat 0 -14px;line-height:32px;font-size:14px;cursor:pointer;}
+	.main_money a.on,.main_money_a:hover,.main_umpay_money_list a.on{background:url(../images/radio.png) no-repeat 0 -50px;color:#6ca200;}
+	.main_money_a:hover{background:url(../images/radio.png) no-repeat 0 -50px;color:#6ca200;text-decoration: underline;}
+	.main_other_money,.main_money_convert{width:636px;height:30px;overflow:hidden;padding:0 0 0 24px;line-height:30px;font-size:15px;}
+	.main_other_money a,.main_other_money span,.main_other_money label{float:left;display:block;}
+	.main_other_money a{width:32px;height:32px;background:url(../images/radio.png) no-repeat 0 -14px;}
+	.main_other_money a.on{background:url(../images/radio.png) no-repeat 0 -50px;}
+	.main_other_money .other_money{width:132px;height:26px;float:left;overflow:hidden;padding:0 5px;border:1px solid #c7c7c7;line-height:26px;}
+	.proportion{color:#6ca200;}
+	.card{height: 60px;padding: 0 0 0 24px;width: 636px;font-size: 15px;line-height: 30px;}
+	.card input,.main_title input{width:132px;height:26px;overflow:hidden;padding:0 5px;border:1px solid #c7c7c7;line-height:26px;}
+
+/*银行水印*/
+.bank_bg_1{background:url(../images/bank_bg_zfb_1.jpg) bottom right no-repeat;padding-bottom:45px;}  /*快钱(银行卡)*/
+.bank_bg_2{background:url(../images/bank_bg_zfb_2.jpg) bottom right no-repeat;padding-bottom:45px;} 	/*易宝(银行卡)*/
+.bank_bg_3{background:url(../images/bank_bg_zfb_1.jpg) bottom right no-repeat;padding-bottom:45px;}  /*快钱帐号充值*/
+.bank_bg_4{background:url(../images/bank_bg_zfb_4.jpg) bottom right no-repeat;padding-bottom:45px;}  /*支付宝(余额)*/
+.bank_bg_5{background:url(../images/bank_bg_zfb_5.jpg) bottom right no-repeat;padding-bottom:45px;}  /*Q币卡支付*/
+.bank_bg_6{background:url(../images/bank_bg_zfb_6.jpg) bottom right no-repeat;padding-bottom:45px;}  /*骏网一卡通*/
+.bank_bg_7{background:url(../images/bank_bg_zfb_7.jpg) bottom right no-repeat;padding-bottom:45px;} 	/*神州行充值*/
+.bank_bg_8{background:url(../images/bank_bg_zfb_8.jpg) bottom right no-repeat;padding-bottom:45px;}  /*电信卡充值*/
+.bank_bg_9{background:url(../images/bank_bg_zfb_9.jpg) bottom right no-repeat;padding-bottom:45px;} 	/*联通卡充值*/
+.bank_bg_10{background:url(../images/bank_bg_zfb_10.jpg) bottom right no-repeat;padding-bottom:45px;} 	/*人工充值*/
+.bank_bg_12{background:url(../images/bank_bg_zfb_12.jpg) bottom right no-repeat;padding-bottom:45px;} 	/*微信充值*/
+.bank_bg_13{background:url(../images/bank_bg_zfb_13.jpg) bottom right no-repeat;padding-bottom:45px;} 	/*盛付通网银*/
+.main_bank{/*width:680px;*/height:100%;overflow:hidden;}
+.main_bank a{width:135px;height:32px;float:left;display:block;overflow:hidden;margin:0px 8px 8px 0px;padding:0px 0 6px 30px;background:url(../images/radio.png) no-repeat 0px -10px;border:1px solid #fff;cursor:pointer;}
+.main_bank a.on,.main_bank a:hover{background:url(../images/radio.png) no-repeat 0px -46px;border:1px solid #59c8d5;}
+.main_bank a.hide{display:none;}
+.main_bank a img{width:133px;height:36px;}
+.main_more_bank,.main_close_bank{width:680px;height:26px;overflow:hidden;padding-top:10px;background:url(../images/more_bank.jpg) no-repeat center bottom;}
+.main_more_bank a,.main_close_bank a{width:150px;height:26px;display:block;margin:auto;text-indent:-2000px;cursor:pointer;}
+.main_close_bank{display:none;}
+
+.main_confirm{width:680px;height:44px;padding:14px 0 0;}
+.main_confirm a{width:190px;height:44px;display:block;margin:auto;text-indent:-2000px;background-image:url(../images/button.jpg);background-position:0px -54px;cursor:pointer;}
+.main_confirm a:hover{background-image:url(../images/button.jpg);background-position:0px -100px;}
+.main_explain{width:660px;margin:40px 0;padding:10px 30px;background:#F7F7F7;line-height:26px;font-size:14px;}
+
+.foot{width:980px;margin:0 auto;}
+.footcont{border:1px solid #d3d3d3;}
+  .fkf{width:200px;height:100px;margin: 20px 0 20px 35px;line-height:25px;font-size:12px;border-right:1px dotted #CCC;}
+  .foottitle{font-size:14px;font-weight:bold;background:url(../images/ico.png) no-repeat;padding-left:30px;}
+   .psiti1{background-position:-10px -126px;}
+   .psiti2{background-position:-10px -87px;}
+   .psiti3{background-position:-10px -50px;}
+   .psiti4{background-position:-13px -12px;}
+  .explain{text-align:center;font-size:12px;line-height:25px;padding-top:15px;padding-bottom:15px;}
+  .goutong{width:200px;height:30px;line-height:30px;padding-top:5px;}
+  .goutong span{float:left;display:block;}
+
+  
+/*充值不成功/成功页面 */ 
+.failure{background:#FFF;}
+ .failuremargin{width:750px;margin:0 auto;padding:60px 0;}  
+ .failurel{padding-left:35px;line-height:30px;}
+ .failtitle{width:100%;height:40px;line-height:40px;font-size:20px;}
+  .failtitle span{float:left;display:block;}
+  .fail1{font-size:12px;}
+  .fail2{width:500px;}
+    .fail2 p{width:500px;}
+  .fail3{width:500px;height:30px;line-height:30px;padding:10px 0;}
+   .fail3 a{display:block;float:left;width:110px;height:30px;line-height:30px;color:#3F403C;background:url(../images/tc_confirm.jpg) 0 0 no-repeat;text-align:center;margin-right:10px;}
+   .fail3 a:hover{background:url(../images/tc_confirm.jpg) 0 -31px no-repeat;}
+  .fail4{}
+ 
+.fullbg{background-color: Gray;display: none;z-index: 998;position: absolute;left: 0;top: 0;
+    filter: Alpha( Opacity = 30 );/* IE */
+    -moz-opacity: 0.4;/* Moz + FF */
+    opacity: 0.4;}
+.loading{width:260px;height:48px;display: none;padding:64px 0 0;background:url(../images/loading.gif) no-repeat center top;line-height:24px;text-align:center;color:#336699;font-size:16px;}
+.loading a{color:#6ca200;}
+.float_div{background:#fff;border:3px solid #54c0ff;}
+ 
+/*弹窗提示*/
+.layer{position:absolute;left:0;top:0;width:100%;height:1360px;background:#000;z-index:401;opacity:0.3;filter:alpha(opacity=30);}
+.box_alert{color:#604f34;z-index:999999999;left:62%;top:55%;width:460px;height:auto;overflow:hidden;background:#000;margin-top:-210px;margin-left:-400px;position:fixed;_position:absolute;_top:expression(offsetParent.scrollTop + 400);}
+.box_alert .close{width:30px;height:30px;overflow:hidden;text-indent:-1000em;position:absolute;top:8px;right:10px;cursor:pointer;background:url(../images/tc_del.jpg) 0 -1px no-repeat;}
+
+/*提示*/
+.box_alert .dlk{width:454px;background:#FFF;border:3px solid #54c0ff;}
+.tctitle{height:38px;background:#a0dcff;line-height:38px;padding-left:20px;font-size:16px;color:#464646;}
+.tccont{width:400px;padding:10px 20px 20px 20px;line-height:25px;}
+ .tcxtitle{font-size:18px;color:#6ca200;line-height:30px;}
+ .x1{width:140px;float:left;display:block;color:#8c8c8c;}
+ .x2{width:160px;float:left;display:block;color:#464648;}
+ .confirm a{display:block;width:110px;height:30px;line-height:30px;color:#3F403C;background:url(../images/tc_confirm.jpg) 0 0 no-repeat;text-align:center;}
+ .confirm a:hover{color:#3F403C;background:url(../images/tc_confirm.jpg) 0 -31px no-repeat;text-align:center;}
+ .tcreturn a{display:block;width:60px;height:30px;line-height:30px;color:#3F403C;text-align:center; background:url(../images/tc_confirm.jpg) 0 -62px no-repeat;}
+ .tcreturn a:hover{color:#3F403C;background:url(../images/tc_confirm.jpg) 0 -93px no-repeat;}
+
+ /*充值优惠卡*/
+ .rebate_title{width: 720px;height: 32px;font-size: 15px;line-height: 32px;text-align: left;}
+ .rebate_con{width:720px;height: 150px;}
+  .rebate_con ul{width:720px;height: 150px;}
+  .rebate_con ul li{width:170px;height: 140px;margin: 5px;float:left;}
+  .rebate_con ul li .on{background:url(../images/radio.png) no-repeat 0 -50px;color:#6ca200;}

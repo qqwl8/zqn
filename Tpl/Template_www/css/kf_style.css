@@ -1,0 +1,101 @@
+/* CSS Document */
+h1,h2,p{
+	margin: 0px;
+	padding: 0px
+}
+div{
+	margin:0 auto
+}
+body{
+	font-size:12px
+}
+.serFrame{
+	width: 286px;
+	height: 282px;
+	background:#FFF;
+	overflow:hidden
+}
+.serFrame_top{
+	width: 269px;
+	height:42px;
+	background:url(../images/xian.jpg) no-repeat center bottom;
+	color: #999999;
+	line-height: 50px;
+	overflow:hidden
+}
+.RserFrame_con h2,.serFrame_top h1{
+	font-size: 18px;
+	float:left;
+	font-weight:normal;
+	color: #999999;
+}
+.serFrame_top span{
+	float:right;
+	font-size: 12px;
+	line-height: 60px;
+}
+.serFrame_con{
+	width: 269px;
+	height: 150px;
+	overflow:hidden
+}
+.LserFrame_con{
+	float:left;
+	width: 140px;
+	height: 150px;
+	background:url(../images/img01.jpg) no-repeat;
+	margin-top: 5px;
+}
+.RserFrame_con{
+	float:left;
+	margin-top: 5px;
+	width: 129px
+}
+.RserFrame_con h2{
+	font-size:14px;
+	text-align:left
+}
+.phone{
+	color:#ff7a00;
+	font-size: 18px;
+	font-weight: bold;
+	font-family:'黑体';
+	float:left;
+	line-height: 30px;
+	text-align:left
+}
+a{
+	text-decoration:none
+}
+.RserFrame_con a{
+	width: 110px;
+	height: 24px;
+	line-height: 24px;
+	text-align:center;
+	font-size:12px;
+	display:block;
+	color: #fff;
+	background: #ff6501;
+	margin-top: 10px;
+	float:left;
+	overflow:hidden
+}
+.RserFrame_con a:hover{
+	background: #fb904a;
+}
+.serFrame_bottom{
+	width: 270px;
+	height: 65px;
+	background:url(../images/img02.jpg) no-repeat;
+	margin-top: 5px;
+	overflow:hidden
+}
+.serFrame_bottom a{
+	text-indent: -999999px;
+	float:right;
+	width: 90px;
+	height: 20px;
+	display:block;
+	margin: 18px 18px 0px 0px;
+	overflow:hidden
+}

@@ -1,0 +1,102 @@
+@charset "gb2312";
+/* CSS Document */
+html, body, div, span,applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;}
+body {height:100%;color:#333;-webkit-text-size-adjust:none;}
+div {text-align:left;}
+body{font:12px/1.5em "\5b8b\4f53","Arial Narrowa";color:#b6b6b6;}
+h1, h2, h3, h4, h5, h6{font-size:100%;}
+address, cite, em{font-style:normal;}
+li{list-style-type:none;}
+a{text-decoration:none;color:#08c;}
+a:hover{color:#d70000;text-decoration:none;}
+fieldset, img {border:0;}
+label,button{cursor: pointer;}
+select,input,textarea,font{font-size:12px;line-height:1.2em;}
+.clear{clear:both; line-height:0px; overflow:hidden;}
+
+body{background:url(../../images/body_bg.png);}
+
+/*top_link*/
+#top_nav{position:relative;z-index:999;}
+.link_td { background: url(/templets/kai/img/hy_2t.jpg); color: #CEC9C9; height: 33px; line-height: 33px; text-align: center; }
+.link_td a { color: #3C3C3C; }
+.link_td a img{}
+.link_tdbox {overflow: hidden;zoom: 1;color: #666;font-family: "Î¢ÈíÑÅºÚ"; background:url(../../images/top_link_bg.png) repeat-x; padding-bottom:2px;}
+.link_tdbox div{ float:left; line-height: 35px; height: 35px; overflow: hidden;}
+.dqgamelogo{padding-left:15px}
+.dqgame{margin: 0px 30px 0px 40px;color: #888;}
+.dqgame i{font-style: normal; color:#d70000;}
+.dqgame b,.dqgame font{color:#000;font-weight:bold;margin-left:5px}
+.dqgame span{color:#08c;margin-left:10px}
+.mrdia, .mrdia a { color: #2A8EC9;}
+.dqgamefn span{font-family: "ËÎÌå";margin: 0px 4px;color: rgb(219, 219, 219);}
+.dqgamefn em{font-style: normal;color:#d70000;font-weight:bold}
+.dqgamefn {margin-right:20px}
+.dqgamefn a{font-weight:bold;color: #BE940C;} 
+.dqgamefn a:hover{color:#d70000;text-decoration: none;}
+.mrdia{float:right !important; padding-right:15px}
+.mrdia:hover{color:#d70000;text-decoration: none;}
+.mrdia font{margin: 0px 8px;color:#ddd;font-family: ¡°ËÎÌå¡±;}
+.mrdia span{color:#d70000;cursor: pointer;}
+
+
+/*djs con*/
+#djs{width:754px;margin: 80px auto auto; overflow:hidden;zoom:1;font-family: "Î¢ÈíÑÅºÚ";}
+#djs .djstitle{height: 47px;overflow: hidden;background:url(../../images/djs_bg.png) no-repeat -754px 0px;zoom:1;}
+#djs .djstitle span,#djs .djstitle a{ height: 26px; line-height: 26px;margin-top:11px; display:inline;}
+#djs .djstitle span{float: left;padding-left: 35px; font-weight:bold;color:#888;font-size:14px; font-family:"Î¢ÈíÑÅºÚ";}
+#djs .djstitle a{float:right; width:114px; background:url(../../images/djs_btn.png) no-repeat 0px 0px;margin-right: 15px; text-indent:-999em;}
+#djs .djstitle a:hover{ background:url(../../images/djs_btn.png) no-repeat 0px -25px;}
+#djs .djscon{background:url(../../images/djs_bg.png) repeat-y; overflow: hidden; zoom:1;}
+#djs .djscon h1{font-size:35px; color:#2e83ab; font-family: "Î¢ÈíÑÅºÚ"; font-weight:300; text-align: center; line-height: 40px; height: 40px; overflow: hidden;margin-top:52px;}
+#djs .djscon .stargame{ display:block;width:164px; height:50px; margin:0px auto; background:url(../../images/djs_btn.png) no-repeat 0px -50px; text-indent:-999em;}
+#djs .djscon .stargame:hover{background:url(../../images/djs_btn.png) no-repeat 0px -102px;}
+#djs .djscon p{font-size:22px;color:#454545; font-weight:bold; line-height: 35px;height:35px;margin-top: 28px; text-align: center;}
+#djs .djscon p a img{ margin-left: 15px;}
+#djs .djscon p b{color:#fb7b00; font-size:30px;font-style:italic;margin-right: 8px; font-family:arial;margin-left: 8px;}
+#djs .djscon .xskbox{text-align:center; line-height: 32px; color: #666; margin-top: 42px;}
+#djs .djscon .xskbox .xsk_btn{display:inline-block;width:110px;height:33px; background: url(../../images/djs_btn.png) no-repeat -1px -158px; margin:0px 10px; font-size: 16px;color: #656565;}
+#djs .djscon .xskbox .xsk_btn:hover{background: url(../../images/djs_btn.png) no-repeat -1px -192px;color: #333;}
+#djs .djscon .xskbox .gf_link{margin-left: 10px;color:#d70000;}
+#djs .djscon .xskbox .gf_link:hover{color:#000;}
+
+#otherbox{background: url(../../images/djs_other.png) no-repeat 50% 0px; margin-top: 48px;overflow: hidden;zoom:1;}
+#otherbox h2{font-family:"Î¢ÈíÑÅºÚ";font-size: 16px;color:#888; font-weight: 300; text-align:center; line-height: 20px; height: 20px; margin-top: 40px;}
+
+#djs .djsbottom{height:12px; overflow: hidden; background: url(../../images/djs_bg.png) no-repeat -1508px 0px;}
+
+
+/*ÁÐ±í*/
+
+#otherbox ul{padding:14px 0px 0px 14px; display: inline-block}
+#otherbox li{width: 160px; height: 70px; margin: 0 16px 4px 0;   line-height: 20px;  display: inline-block;*display:inline;zoom:1;} 
+#otherbox li span{ width:96px; height: 20px; margin-left: 53px; float:left; font-size: 14px; font-family: airal,"Î¢ÈíÑÅºÚ"; color: #d8a370; display: inline; margin-top: 11px; text-align: left;}
+#otherbox li a:hover span{ color:#fb7b00;}
+#otherbox li a{ display:block; overflow: hidden; width: 160px; height: 60px; zoom: 1;background: url(../../images/kflistBtn.png) no-repeat -162px -141px; padding-bottom: 10px;}
+#otherbox li a:hover{background: url(../../images/kflistBtn.png) no-repeat -1px -141px;}
+#otherbox li b{ height: 20px; display: inline; color: #a5a5a5; font-weight:100; float: left; line-height: 20px; margin-left: 53px;}
+
+#otherbox .goNew b{font-size:22px;font-weight:bold;font-family:"Î¢ÈíÑÅºÚ";color:#ea6254;line-height: 30px;height: 30px;margin-top: 15px;}
+#otherbox .goNew a{background: url(../../images/kflistBtn.png) no-repeat -1px -1px;}
+#otherbox .goNew a:hover{background: url(../../images/kflistBtn.png) no-repeat -162px -1px;}
+#otherbox .goNew a:hover b{color:#d70000;}
+
+#otherbox .wkf a{background: url(../../images/kflistBtn.png) no-repeat -1px -71px;}
+#otherbox .wkf a:hover{background: url(../../images/kflistBtn.png) no-repeat -1px -71px;}
+
+
+#otherbox li b em,#otherbox li b i{
+    font-style: normal;margin-right: 8px;font-size: 12px;font-family: arial;}
+#otherbox li a:hover b em,#otherbox li a:hover b i{color:#666}
+#tabs1 {
+ width: 717px; 
+}
+.menu11{
+ width: 717px;height:30px; background:url(../../images/index_2.gif);
+}
+.menu11{  width: 697px; height: 32px; line-height:32px; padding: 0 10px 0 10px; border-bottom:none; background: url(../../images/602indexImg.png) no-repeat 0px -402px;}
+.menu11 li{ float: left;  height: 20px;  display: inline;  overflow: hidden;  margin-top: 7px; font: bold 14px/20px arial,"Î¢ÈíÑÅºÚ","ËÎÌå";}
+
+#otherbox ul{overflow:hidden;zoom:1;width: 720px;text-align: center;padding-bottom: 18px;}
+#otherbox ul.block{display: block;}
+

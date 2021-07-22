@@ -1,0 +1,14 @@
+/* CSS Document */
+body{font-size:12px;}
+body,div,h1,h2,p{margin: 0px;padding: 0px;}
+.header{margin:0 auto;width:100%;height:1220px;background:url(../images/onelimitheader.jpg) no-repeat center bottom;overflow:hidden}
+.header .goods{margin:0 auto;margin-top:350px;width:700px;height:220px; }
+.header .goods .images{float: left;width:350px;height:200px;margin: 8px;}
+.header .goods .desc{float:left;width:320px;height:125px;margin: 5px;}
+.header .goods .desc .title{float:left;width:320px;height:30px;}
+.header .goods .desc .title h2{margin-left:10px;color:#F60B8C;}
+.header .goods .desc .content{float:left;width:300px;height:110px;margin-top: 5px;padding:10px;}
+.header .panic{float:left;margin:0 auto;margin-top:10px;width:245px;height:66px; }
+.header .panic .panic_buy{width:245px;height:66px;display:block;background:url(../images/panic_buy.jpg) no-repeat center bottom;background-position: 0;}
+.header .panic .panic_buy:hover{width:245px;height:66px;display:block;background:url(../images/panic_buy.jpg) no-repeat center bottom;background-position:-245px 0;}
+.footer{margin:0 auto;width:100%;background:url(../images/onelimitfooter.jpg) no-repeat center bottom;overflow:hidden}

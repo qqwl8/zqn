@@ -1,0 +1,358 @@
+/* CSS Document */
+div {
+	margin: 0 auto
+}
+body, ul, li, h1, h2, em, p {
+	margin: 0px;
+	padding: 0px
+}
+a {
+	text-decoration: none;
+}
+ul li {
+	list-style: none
+}
+body {
+	width: 100%;
+	height: 100%;
+	background: #1a0e02;
+	font-size: 12px;
+	color: #e9ac85;
+	font-family: '宋体'
+}
+.leftFrame {
+	width: 121px;
+     left: 5px;
+	 height: 100%;
+	 float:left;
+	 position:fixed
+}
+.topFrame {
+	background: url(../images/topbg_box.png) repeat-x;
+	height: 40px;
+	overflow: hidden
+}
+.topFrame1 {
+	width: 723px;
+	height: 40px;
+	float: left;
+	overflow: hidden;
+	background: url(../images/bg.jpg) no-repeat
+}
+.logo {
+	width: 85px;
+	height: 27px;
+	float: left;
+	background: url(../images/logo.gif) no-repeat;
+	overflow: hidden;
+	margin-top: 5px;
+	margin-left: 10px
+}
+.line {
+	display: inline-block;
+	width: 2px;
+	height: 39px;
+	margin: 0 10px;
+	background: url(../images/top_pic.png) no-repeat 0 4px;
+	vertical-align: middle;
+	float: left
+}
+.gameName {
+	color: #fff29b;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 40px;
+	float: left;
+	cursor: pointer
+}
+.topFrame2 {
+	height: 40px;
+	overflow: hidden;
+	background: #47170d;
+}
+.advert {
+	width: 318px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	color: #e9ac85;
+	margin-left: 100px
+}
+.release {
+	width: 117px;
+	height: 40px;
+	float: left;
+	position: fixed;
+	_position: absolute;
+	left: 50%;
+	top: 0px;
+	display: none
+}
+.release a {
+	width: 117px;
+	height: 9px;
+	background: url(../images/release.jpg) no-repeat top center;
+	display: block;
+}
+.information {
+	width: 110px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	float: right;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	overflow: hidden;
+	margin-right: 10px;
+	float: left
+}
+.vipbg {
+	display: inline-block;
+	width: 38px;
+	height: 14px;
+	margin: 15px 10px 0px 0px;
+	vertical-align: middle;
+	float: left
+}
+.right_message {
+	float: right;
+	margin-right: 20px
+}
+.right_message li {
+	float: left;
+}
+.line1 {
+	line-height: 40px;
+	float: left;
+	font-size: 14px;
+	font-style: normal;
+	margin: 0px 5px
+}
+.right_message a {
+	color: #e9ac85;
+	float: left;
+	line-height: 40px
+}
+.mesbg {
+	display: inline-block;
+	background: url("../images/top_pic.png?v=150512") no-repeat -21px -19px;
+	width: 17px;
+	height: 17px;
+	vertical-align: middle;
+	margin: 10px 0 0 5px;
+	float: left
+}
+.close_tools {
+	display: block;
+	background: url(../images/top_pic.png?v=150512) no-repeat -55px 0;
+	width: 13px;
+	height: 26px;
+	text-indent: -5000px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.leftFrame_con {
+	width: 112px;
+	height: 100%;
+	background: #200f04 url(../images/leftbg.jpg) repeat-y right 0;
+	color: #dc6403;
+	text-align: center;
+	float: left;
+	padding-top: 5px
+}
+.leftFrame_con li {
+	float: left
+}
+.Lrelbtn {
+	position: absolute;
+	left: 110px;
+	top: 49%;
+	display: block;
+	width: 9px;
+	height: 41px;
+	overflow: hidden;
+	background: url(../images/fold.gif) 0 -41px no-repeat;
+}
+.btns {
+	width: 108px;
+	height: 67px;
+	float: left;
+	display: block;
+	margin-bottom: 5px;
+	overflow: hidden
+}
+/*.registerBtn {
+	background: url(../images/qian.gif) no-repeat;
+}
+.integralBtn {
+	background: url(../images/integral.gif) no-repeat
+}*/
+.Sbtns, .Dbtns {
+	width: 110px;
+	height: 44px;
+	float: left;
+	background: url(../images/bg1.gif) no-repeat;
+	overflow: hidden;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 44px;
+	text-align: center;
+	color: #dfcb8d
+}
+.xsms{
+	background: url(../images/xsms.png) no-repeat;
+	height:66px;
+}
+.viptq{
+	background: url(../images/viptq.png) no-repeat;
+	height:66px;
+}
+.Sbtns {
+	height: 32px;
+	background: url(../images/btn2.gif) no-repeat;
+	line-height: 32px;
+}
+.rightFrame {
+	float: right;
+	width: 100%;
+	height: 100%;
+}
+.sam_game, .game {
+	width: 650px;
+	height: 400px;
+	background: url(../images/bg2.jpg) no-repeat;
+	left: 30%;
+	top: 30%;
+	position: fixed;
+	_position: absolute;
+	overflow:hidden;
+	z-index: 100
+}
+.sam_game {
+	width: 509px;
+	height: 295px;
+	background: url(../images/bg4.jpg) no-repeat
+}
+.sam_game_tit, .game_tit {
+	width: 650px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #dfcb8d;
+	font-size: 17px;
+	overflow:hidden;
+}
+.sam_game_tit {
+	width: 509px;
+	height: 35px;
+}
+.sam_game_tit span{
+	float:left;
+	width: 470px;
+	height: 35px;
+}
+.game_tit span{
+	float:left;
+	width: 620px;
+	height: 35px;
+}
+.close {
+	float: right;
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin-top: 8px;
+	margin-right: 8px;
+	cursor:pointer;
+	overflow:hidden
+}
+.sam_game_con, .game_con {
+	padding: 28px 0px 0px 28px;
+	color: #9e704e;
+	overflow: hidden
+}
+.game_con li {
+	width: 580px;
+	line-height: 30px;
+	border-bottom: 1px dashed #9e704e;
+	margin-bottom: 5px;
+	_margin-bottom: -20px;
+	overflow: hidden;
+	float: left
+}
+.game_con li a {
+	color: #9e704e;
+	font-size: 14px
+}
+.data_time {
+	float: right
+}
+.sam_game_con li {
+	width: 426px;
+	height: 37px;
+	line-height: 37px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 5px;
+	_margin-bottom: -20px;
+}
+.sam_game_con li p {
+	font-size: 16px;
+	float: left
+}
+.setBtn, .getBtn {
+	width: 108px;
+	height: 37px;
+	background: url(../images/btn1.gif) no-repeat;
+	float: right;
+	overflow: hidden;
+	color: #ffff00;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold
+}
+.setBtn {
+	background: url(../images/btn5.gif) no-repeat;
+	color: #dfcb8d
+}
+.xsCard {
+	width: 175px;
+	height: 86px;
+	float: left;
+	overflow: hidden;
+	margin-right: 15px
+}
+.xsText {
+	width: 264px;
+	float: left;
+	line-height: 30px;
+	overflow:hidden
+}
+.xsText span {
+	float: left
+}
+.xsText h1 {
+	color: #f2bd7d;
+	font-size: 14px;
+	font-weight: bold;
+	float: left
+}
+.draw {
+	width: 400px;
+	height: 96px;
+	text-align: center;
+	overflow: hidden
+}
+.drawBtn {
+	width: 173px;
+	height: 96px;
+	overflow: hidden;
+	display: block;
+	background: url(../images/btn6.gif) no-repeat;
+	float: left;
+	margin-top: 20px;
+	margin-left: 100px;
+	_margin-left: 50px
+}

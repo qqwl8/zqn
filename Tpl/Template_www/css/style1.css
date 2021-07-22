@@ -1,0 +1,22 @@
+@charset "gb2312";
+/* CSS Document */
+
+
+.fk_pop { width:651px; height:370px; background:url(../images/bg.gif) 0px 0px no-repeat; }
+.fk_tit { height:53px;  position:relative; padding:7px 0px 0px 0px;}
+.fk_tit h2 {font-family:Microsoft yahei; font-size:18px; color:#333333; font-weight:normal; height:53px; line-height:53px; padding:0px 0px 0px 20px}
+.fk_close {  position:absolute; top:24px; right:21px;}
+.fk_close a {width:19px; height:19px; background:url(../images/bg.gif) 0px -415px no-repeat; display:block; font-size:0px; text-indent:-9999em; overflow:hidden; }
+.fk_prompt { height:66px; color:#999999; font-size:12px; line-height:20px;}
+.fk_prompt p { padding:12px 0px 0px 25px;}
+
+.fk_cont { padding:0px 0px 0px 25px;}
+.fk_cont textarea { width:595px; height:180px; background:#ffffff; border:1px solid #d1d1d1; margin-bottom:10px; color:#333; font-size:12px; line-height:20px; padding:0px 0px 0px 5px;  }
+.fk_cont table { width:602px;}
+.fk_cont td { font-size:14px; color:#333333; height:32px; line-height:32px;}
+.fk_cont .i_text { width:220px; height:32px; line-height:32px; padding:0px 5px; margin:0px; border:1px solid #d1d1d1;}
+.fk_cont .btn { width:106px; height:33px; line-height:33px; text-align:center; color:#fff; font-size:14px; color:#fff; border:none; background:url(../images/bg.gif) 0px -375px no-repeat; float:right; cursor:pointer;}
+
+* html,* html body{ background-attachment:fixed; } 
+.fk_pop{ z-index:1111111; position:fixed; left: 50%;margin-left:-325px;top: 25%;}
+* html .fk_pop{ position:absolute; left:expression(eval((document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)/2+325)); top:expression(eval(document.documentElement.scrollTop+100)) } 

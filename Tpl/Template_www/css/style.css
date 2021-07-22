@@ -1,0 +1,291 @@
+/* CSS Document */
+body{margin:0;padding:0;}
+div, h3,p{
+	margin: 0px;
+	padding: 0px
+}
+div{
+	margin: 0 auto
+}
+.loginFrame{
+	width: 288px;
+	height: 249px;
+	border: 1px solid #b8d3dc;
+	background: #fff
+}
+.loginFrame_head{
+	width: 288px;
+	border-bottom: 1px solid #b8d3dc;
+	height: 30px;
+	background-color:#d2ecf9;
+}
+.loginFrame_head i{
+	background:url(../images/123.gif) no-repeat left center;
+	width: 25px;
+	height: 20px;
+	display:block;
+	margin-top: 5px;
+	margin-left: 5px;
+	float:left;
+	margin-right: 10px
+}
+.loginFrame_head h3{
+	font-size:14px;
+	font-weight:bold;
+	line-height: 30px
+}
+.loginFrame_con{
+	width: 249px;
+	height: 200px;
+	overflow:hidden;
+	padding-top: 20px
+}
+.loginFrame_con p{
+	width: 246px;
+	height: 36px;
+	background: #ffb502;
+	border: 1px solid #dd9b0f;
+	text-align:center;
+	line-height: 36px;
+	color: #692e02;
+	-webkit-border-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-radius: 5px;
+	_border-radius: 5px;
+	float:left;
+	margin-bottom: 10px;
+	font-size: 14px
+}
+label{
+	font-weight:bold;
+}
+a{
+	text-decoration: none
+}
+.loginFrame_con p a{
+	color: #692e02;
+}
+.ipt1{
+	background:url(../images/ico-24.png) no-repeat 0px -1436px; 
+}
+.ipt2{
+	background:url(../images/ico-24.png) no-repeat 0px -1469px; 
+}
+.ipt3{
+	width: 13px;
+	height: 13px;
+	float:left;
+	overflow:hidden;
+	margin-bottom: 10px
+}
+.loginFrame_con span{
+	font-size:12px
+}
+.forgetpwd{
+	float:right;
+	color: #0095ea;
+	font-size:12px
+}
+.loginFrame{
+	width: 288px;
+	height: 249px;
+	border: 1px solid #b8d3dc;
+	background: #fff
+}
+.loginFrame_head{
+	width: 288px;
+	border-bottom: 1px solid #b8d3dc;
+	height: 30px;
+	background-color:#d2ecf9;
+}
+.loginFrame_head i{
+	background:url(../images/123.gif) no-repeat left center;
+	width: 25px;
+	height: 20px;
+	display:block;
+	margin-top: 5px;
+	margin-left: 5px;
+	float:left;
+	margin-right: 10px
+}
+.loginFrame_head h3{
+	font-size:14px;
+	font-weight:bold;
+	line-height: 30px
+}
+.loginFrame_con{
+	width: 249px;
+	height: 200px;
+	overflow:hidden;
+	padding-top: 20px
+}
+.loginFrame_con p{
+	width: 246px;
+	height: 36px;
+	background: #ffb502;
+	border: 1px solid #dd9b0f;
+	text-align:center;
+	line-height: 36px;
+	color: #692e02;
+	-webkit-border-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-radius: 5px;
+	_border-radius: 5px;
+	float:left;
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+label{
+	font-weight:bold;
+}
+a{
+	text-decoration: none
+}
+.loginFrame_con p a{
+	color: #692e02;
+}
+.loginFrame_con .inp{
+	border: 1px solid #a4d4eb;
+  width: 216px;
+  height: 26px;
+  color: #a9a9a9;
+  line-height: 26px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  float: left;
+  overflow: hidden;
+  margin-left: 15;
+  margin-right: 10px;
+}
+.ipt1{
+	background:url(../images/ico-24.png) no-repeat 0px -1436px; 
+}
+.ipt2{
+	background:url(../images/ico-24.png) no-repeat 0px -1469px; 
+}
+.ipt3{
+	width: 13px;
+	height: 13px;
+	float:left;
+	overflow:hidden;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.loginFrame_con span{
+	font-size:12px
+}
+.forgetpwd{
+	float:right;
+	color: #0095ea;
+	font-size:12px
+}
+.sculpture_con{
+	width: 269px;
+	height: 163px;
+	padding-top: 10px
+}
+.logined_sculpture{
+	width: 269px;
+	height: 80px
+}
+.scul{
+	width: 48px;
+	height: 49px;
+	float:left;
+	overflow:hidden;
+	background:#F00;
+	margin-right: 13px
+}
+.quit{
+	width: 207px;
+	height: 30px;
+	float:left;
+	line-height: 25px
+}
+.quit span{
+	color: #ff6501;
+	font-size:14px;
+	float:left
+}
+.quit a{
+	color: #3c3c3c;
+	font-size:14px;
+	font-weight: bold;
+	float:right;
+	overflow:hidden
+}
+.VIPimg{
+	float: left;
+	width: 34px;
+	height: 16px;
+}
+.sculptureBtns{
+	width: 210px;
+	height: 27px;
+	float:right;
+	padding:4px;
+}
+.sculptureBtns a{
+	width: 65px;
+	height: 22px;
+	background:url(../images/ico2.jpg) no-repeat;
+	text-align:center;
+	line-height: 22px;
+	display:block;
+	float:right;
+	margin-right: 5px;
+	font-size: 12px;
+	color:#000
+}
+.sculptureBtns a:hover{
+	background:url(../images/ico3.jpg) no-repeat;
+}
+.integrate{
+	width: 255px;
+	height: 60px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	/* text-align: center; */
+	padding-left: 10px;
+}
+.integrate p{
+	width: 117px;
+	float: left;
+	margin-right: 10px;
+	line-height: 30px;
+	font-size: 12px;
+}
+.integrate_text font,.integrate p font{
+	color: #ff6501
+}
+.integrate_tit{
+	width: 228px;
+	height: 21px;
+	text-align:left;
+	font-size:12px;
+	background:url(../images/bg_1.jpg) no-repeat;
+	line-height: 21px
+}
+.integrate_text{
+	width: 241px;
+	height: 25px;
+	font-size: 12px;
+	line-height: 25px;
+	padding-left: 15px;
+	margin-top: 10px
+}
+.integrate_text span{
+	margin-left: 45px;
+	margin-right: 34px
+}
+.integrate_text .hb{
+	width: 59px;
+	height: 14px;
+	display:block;
+	color:#FFF;
+	background:url(../images/ico4.jpg) no-repeat;
+	text-indent: -99999px;
+	float:right;
+	margin-top: 5px
+}

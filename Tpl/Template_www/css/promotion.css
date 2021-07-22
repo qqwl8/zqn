@@ -1,0 +1,42 @@
+/**********************************************
+积分商城
+by xuerong
+**********************************************/
+
+/* reset 重设浏览器的默认样式 */
+
+/* 充值盒子 */
+.promoter_box{border:1px solid #d9d9d9; padding:10px; _overflow: hidden; min-height:500px;float: left;width:724px;}
+.promoter_box .hd{border-bottom:1px solid #a9ccea; position: relative; height:22px;}
+.promoter_box .hd h3{border-bottom: 1px solid #ff7913; padding:0 2px; position: absolute; height:22px; bottom:-1px; font-size:14px; color: #115ca3}
+.promoter_box .hd span{float: right; font-size:12px; margin-top:2px;}
+.promoter_box .bd{}
+
+.promoter_box .help_text{line-height: 1.8; font-size: 12px; color: #436892; padding:15px 5px 0;}
+.promoter_box .help_text dt{font-weight: bold;}
+.promoter_box .help_text dd{padding-bottom:30px;}
+
+.promoter_list{clear: both;zoom:1;}
+.promoter_list .data_table{border-right:1px solid #4e95d7;border-top:1px solid #4e95d7; text-align: center;}
+.promoter_list .data_table th{background: #dcedfd; font-size: 14px; font-weight: bold; color: #555;}
+.promoter_list .data_table th,.promoter_list .data_table td{border-left:1px solid #4e95d7;border-bottom:1px solid #4e95d7; padding:10px 5px;}
+.promoter_list .data_table td{color: #436892; font-size: 12px; line-height: 1.5}
+.promoter_list .data_table td a{color: #436892}
+
+.promoter_tip{color: #436892; padding:0 0 30px 5px; line-height: 1.8;}
+.promoter_tip a{margin-left:10px;}
+
+
+.promoter_style{}
+.promoter_style .item{padding-bottom:15px; overflow: hidden}
+.promoter_style .txt_label{width: 120px; text-align: right; padding-right:5px; float: left; line-height: 29px; color: #436892}
+.promoter_style .txt_form{border:1px solid #cbcbcb; background: #fff; padding:2px; float: left;}
+.promoter_style input[type="text"]{height:25px; width: 440px;}
+.promoter_style select{height:29px; width: 446px;}
+.promoter_style textarea{height:40px; width: 440px; resize:none;}
+.promoter_style .pt_btn_orange{float: left; margin-left:15px; margin-top:4px; display: inline; font-weight:bold;cursor:pointer;}
+.promoter_style .lc_orange{float: left; line-height: 29px; margin-left:5px;}
+
+.promoter_caption{overflow: hidden; padding-top:30px; padding-left:20px;}
+.promoter_caption h3{color: #436892; font-size: 14px; padding-bottom:10px;}
+.promoter_caption p{line-height: 1.8; padding-bottom:10px; padding-left:10px;}

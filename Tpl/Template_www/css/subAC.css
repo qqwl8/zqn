@@ -1,0 +1,206 @@
+a{ blr:expression(this.onFocus=this.blur()); /* IE Opera */ outline:none; /* FF Opera */ } a:focus{ -moz-outline-style: none; /* FF */ }
+
+* html,* html body{ background-image:url(about:blank); background-attachment:fixed; }
+.xclientHeight { position: fixed; _position: absolute; top: 0; _top: expression(eval(document.documentElement.scrollTop+0)); }
+.thisToolBar { width: 50px; background: #333; z-index: 78; right: 0; }
+.thisToolMain { width: 300px; background: #f5f5f5; z-index: 77; right: -300px; display: none; font-family: 'Microsoft Yahei'; }
+.tbTit { height: 35px; background: #e9e9e9; text-align: center; line-height: 35px; font-size: 16px; color: #333; }
+.tbxx { height: 35px; margin-top: -35px; font-family: 'ËÎÌו'; font-size: 16px; }
+.tbxx a { height: 35px; width: 40px; text-align: center; display: block; line-height: 35px; color: #666; }
+.tbxx a:hover { text-decoration: none; color: #000; }
+
+.thisToolBox1 { top: 50%; _top: 
+expression(eval(document.compatMode &&
+document.compatMode=='CSS1Compat') ?
+documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :
+document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2); 
+position: fixed; _position: absolute; margin-top: -240px; _margin-top: -70px; 
+height: 340px; width: 50px; right: 0; z-index: 80; }
+.thisToolBox2 { bottom: 0; _top: expression(((documentElement.scrollTop+document.documentElement.clientHeight)-200)+'px'); 
+position: fixed; _position: absolute; right: 0; width: 50px; height: 200px; z-index: 81; background: url(thisToolBG.gif) -80px -1000px no-repeat; }
+
+.thisToolStyle li { margin-bottom: 10px; text-align: center; }
+.thisToolStyle li a { display: block; color: #fff; background-image: url(thisToolBG.gif); }
+.thisToolStyle li a:hover { background-color: #c40000; text-decoration: none; }
+.tbx1 img { width: 30px; height: 30px; }
+
+.tbx1 a { padding-top: 10px; height: 40px; width: 50px; }
+		.tbx1 a.current { background-color: #c40000; background-position: -50px 0; }
+.tbx1 a:hover { background-position: -50px 0; }
+
+.tbx2 { line-height: 20px; font-size: 14px; }
+.tbx2 a { width: 18px; height: 100px; background-position: 0 -100px; padding: 50px 16px 0; }
+		.tbx2 a.current { background-color: #c40000; background-position: -50px -100px; }
+.tbx2 a:hover { background-position: -50px -100px; }
+
+.tbx3 { line-height: 20px; }
+.thisToolStyle li.tbx3 a { width: 26px; height: 45px; padding: 5px 12px 0; background-image: none; }
+.thisToolStyle li.tbx3 a.xNewMark { background-image: url(thisToolBG.gif); background-position: 0 -300px; background-repeat: no-repeat; }
+		.thisToolStyle li.tbx3 a.current, .thisToolStyle li.tbx3 a.xNewMark:hover { background-color: #c40000; background-position: -50px -300px; }
+
+
+.thisToolBox2 li { line-height: 50px; text-align: left; float: right; width: 130px; }
+.thisToolBox2 li a { height: 50px; width: 35px; text-indent: -98em; padding-left: 15px; float: right; }
+.thisToolBox2 li a:hover { text-indent: 0; }
+/*.thisToolBox2 li a.current { background: url(thisToolBG.gif) 0 -1450px no-repeat; }
+.thisToolBox2 li a.current:hover { background-position: 0 -550px; background-color: #c40000; }*/
+
+.tbx4 a, .tbx5 a, .tbx6 a { background-position: 0 -400px; }
+.tbx4 a:hover { background-position: 0 -450px; }
+.tbx5 a:hover { background-position: 0 -550px; }
+.tbx6 a:hover { background-position: 0 -650px; }
+
+
+.thisToolBoxing { overflow-y: auto; position: relative; }
+
+.w86s { width: 88%; margin: 0 auto; }
+
+.acInfo { padding-top: 20px; height: 100px; }
+.acInfo img { width: 80px; height: 80px; }
+.acInfo dt { width: 95px; float: left; }
+.acInfo dd, .kaifuLatest dd { float: left; }
+.acInfo h3, .acInfo h3 a { color: #333; font-size: 16px; height: 30px; font-weight: normal; }
+.acInfo h3 a:hover, .kaifuLatest h3 a:hover { color: #098adc; text-decoration: none; }
+.acInfo p { height: 30px; color: #666; }
+
+.xRedx { color: #f00; text-decoration: none; }
+.xRedx:hover { color: #f00; text-decoration: underline; }
+.x098adc { color: #666; text-decoration: none; }
+.x098adc:hover { color: #098adc; text-decoration: underline; }
+.xblux { color: #098adc; text-decoration: none; }
+.xblux:hover { color: #098adc; text-decoration: underline; }
+
+.bonusUrl { height: 50px; border-top: 1px #ccc solid; border-bottom: 1px #ccc solid; background: url(thisToolBG.gif) 0 -700px no-repeat; line-height: 50px; }
+.bonusUrl h3 { padding-left: 32px; height: 50px; font-weight: normal; font-size: 16px; }
+.bonusUrl p { height: 50px; margin-top: -50px; text-align: right; font-size: 14px; }
+
+.sub3Tit { height: 38px; line-height: 38px; color: #333; font-size: 14px; }
+
+.gamedList { height: 110px; }
+.gamedList dl { width: 34%; float: left; text-align: center; }
+.gamedList img, .kaifuLatest img { width: 75px; height: 75px; }
+.gamedList p { top: 0; right: 0; }
+.gamedList p a { width: 25px; height: 55px; display: block; background: #e0e0e0; text-align: center; padding: 20px 25px 0; color: #666; }
+.gamedList a:hover img { filter: alpha(opacity=80); -moz-opacity: 0.8; opacity: 0.8; }
+.gamedList p a.x098adc:hover { text-decoration: none; }
+
+.kaifuLatest dl { height: 86px; padding-top: 12px; }
+.kaifuLatest dt { width: 90px; float: left; padding-left: 7%; }
+.kaifuLatest h3 { font-size: 14px; height: 30px; }
+.kaifuLatest h3 a { color: #333; }
+.kaifuLatest p { height: 20px; margin-bottom: 6px; color: #999; }
+.kfBtn a { width: 70px; height: 20px; line-height: 20px; display: block; float: left; background: url(thisToolBG.gif) -75px -750px no-repeat; text-align: center; color: #098adc; margin-right: 7px; }
+.kfBtn a:hover { color: #fff; background-position: 0 -750px; text-decoration: none; }
+
+.kaifuLatest p.xLoads { height: 25px; line-height: 25px; font-size: 14px; background: #e0e0e0; margin-top: 8px; }
+.kaifuLatest p.xLoads a { display: block; text-align: center; }
+.kaifuLatest p.xLoads a:hover { text-decoration: none; }
+
+#ID4 .kaifuLatest { background:url(kaifuLatest.gif) repeat-y; }
+#ID4 .kaifuLatest dl { background:url(kaifuLatest.gif) repeat-y; position: relative; }
+#ID4 .kaifuLatest dt { padding-left: 10%; }
+#ID4 .kaifuLatest span { width: 25px; height: 25px; text-indent: -98em; display: block; position: absolute; top: 0; right: 0; display: none; }
+#ID4 .kaifuLatest span a { width: 25px; height: 25px; display: block; background: url(thisToolBG.gif) 0 -50px no-repeat; }
+#ID4 .kaifuLatest span a:hover { background-position: -40px -50px; }
+	.kfBtn a.kfax { background-position: -75px -610px; color: #f50606; }
+	.kfBtn a.kfax:hover { background-position: 0 -610px; color: #fff; }
+#ID4 .kaifuLatest h4 { color: #f00; font-size: 14px; background: url(thisToolBG.gif) 0 -360px no-repeat; }
+#ID4 .kaifuLatest h5 { color: #333; font-size: 12px; background: url(thisToolBG.gif) 0 -510px no-repeat; }
+#ID4 .kaifuLatest h6 { color: #999; font-size: 12px; padding-left: 30px; }
+#ID4 .kaifuLatest h4, #ID4 .kaifuLatest h5 { height: 36px; line-height: 36px; padding-left: 48px; }
+#ID4 em { height: 24px; margin-top: -24px; display: block; padding-right: 10px; }
+#ID4 em a { width: 40px; height: 18px; line-height: 18px; text-align: center; text-align: center; color: #fff; background: url(thisToolBG.gif) 0 -1300px no-repeat; float: right; }
+#ID4 em a:hover { color: #fff; text-decoration: none; background-position: -50px -1300px; }
+
+
+.thisOops { height: 200px; background: url(thisToolBG.gif) center -800px no-repeat; }
+.thisOops p { text-align: center; color: #666; padding-top: 165px; font-size: 14px; }
+
+.includeSwf { text-align: center; padding-top: 18px; margin-bottom: 30px; }
+.congraBox { padding-top: 10px; }
+.congraBox dt { width: 25px; height: 30px; float: left; background: url(thisToolBG.gif) 0 -1200px no-repeat; }
+.congraBox dd { float: left; width: 217px; border: 1px #e3e3e3 solid; border-left: none; background: #fff; padding: 0 10px; }
+.congraBox p { line-height: 30px; }
+.congraBox i { color: #ff7200; }
+
+.h5Tipx { font-size: 14px; height: 30px; text-align: center; font-weight: normal; }
+.h4Tipx { font-size: 16px; color: #333; height: 50px; text-align: center; font-weight: normal; }
+.h4Tipx b { color: #f00; font-weight: bold; }
+.thisTipx { color: #666; line-height: 20px; width: 240px; margin: 0 auto; }
+.bdCtrl { width: 144px; margin: 0 auto; height: 40px; }
+
+
+.subxs { font-size: 14px; line-height: 18px; color: #333; }
+.subxs dt { font-weight: bold; padding: 10px 0 5px; }
+.subxs dl, .subxs p { margin-bottom: 10px; }
+.subxs input.msya, .subxs textarea { border: 1px #dfdfdf solid; background: #fff; width: 93%; font-size: 14px; }
+.subxs textarea { height: 160px; line-height: 20px; color: #666; padding: 5px; }
+.subxs input.msya { height: 22px; line-height: 22px; padding: 0 5px; }
+.sbmtBtn { width: 100px; height: 30px; background: url(thisToolBG.gif) 0 -1250px no-repeat; color: #fff; cursor: pointer; border: none; font-size: 14px; font-family: 'Microsoft Yahei'; }
+
+.recordLists { padding-top: 20px; }
+.recordLists th { font-size: 14px; background: #e9e9e9; color: #555; height: 30px; }
+.recordLists td { padding: 10px 0; color: #333; vertical-align: top; border-bottom: 1px #e1e1e1 solid; }
+.recordLists td i.xGray { color: #666; }
+.recordLists td i.xRed { color: #f00; }
+.recordLists td i.xGreen { color: #008000; }
+a.rlax { width: 60px; height: 24px; line-height: 24px; text-align: center; display: block; color: #fff; font-size: 12px; background: url(thisToolBG.gif) 0 -1350px no-repeat; }
+a.rlax:hover { background-position: 0 -1400px; text-decoration: none; }
+
+
+.xQQTips { top: 53px; left: 0; background: #fff4c6; color: #a84f00; height: 24px; line-height: 24px; width: 100%; display: none; }
+.xQQTips a { width: 24px; height: 24px; display: block; float: right; }
+.xQQTips a:hover { background: #ffe094; }
+
+.goID2 { text-align: right; margin-top: -28px; height: 28px; font-size: 14px; padding-right: 20px; }
+
+.popShadow { width: 300px; background: #000; filter: alpha(opacity=30); -moz-opacity: 0.3; opacity: 0.3; z-index: 89; right: 50px; display: none; }
+.popWins { top: 50%; _top: 
+expression(eval(document.compatMode &&
+document.compatMode=='CSS1Compat') ?
+documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :
+document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2); 
+position: fixed; _position: absolute; margin-top: -150px; _margin-top: -50px; 
+width: 240px; right: 68px; z-index: 90; background: #444; padding: 20px 15px; display: none; }
+.popWins h2 { font-size: 16px; color: #ffc600; font-weight: normal; text-align: center; letter-spacing: -1px; margin-bottom: 15px; padding-top: 6px; }
+.popWins h3 { font-size: 12px; color: #ff9c00; font-weight: normal; text-align: center; margin-bottom: 18px; }
+.popWins h4 { font-size: 12px; color: #ffea00; font-weight: normal; margin-bottom: 10px; line-height: 18px; }
+.popWins h5 { font-size: 12px; color: #75b9ff; font-weight: normal; text-align: center; height: 24px; }
+.popWins h5 a { color: #75b9ff; text-decoration: underline; }
+.popWins h5 a:hover, .popLoginBox h6 a:hover { text-decoration: none; }
+.popWins p { height: 40px; }
+.pop1s, .pop2s, .popsubm, .popsubm2 { width: 70px; height: 24px; line-height: 24px; text-align: center; display: block; color: #fff; float: left; margin-right: 10px; font-size: 13px; background-image: url(thisToolBG.gif); background-repeat: no-repeat; }
+.pop1s:hover, .pop2s:hover { text-decoration: none; }
+	.pop1s, .popsubm { background-position: 0 -1440px; }
+	.pop1s:hover, .popsubm2 { background-position: 0 -1470px; }
+	.pop2s { background-position: -75px -1440px; }
+	.pop2s:hover { background-position: -75px -1470px; }
+.popWins table { margin: 0 auto 14px; }
+.popWins th { height: 38px; font-size: 12px; color: #fff; text-align: right; font-weight: normal; }
+.poip { background: #fff; border: 1px #c4c4c4 solid; padding: 0 8px; height: 25px; line-height: 25px; color: #333; font-family: 'Microsoft Yahei'; font-size: 12px; width: 140px; }
+.popsubm, .popsubm2 { cursor: pointer; border: none; font-family: 'Microsoft Yahei'; }
+.popWins td h4 { height: auto; margin: 0; }
+
+.popLoginBox { width: 311px; height: 278px; background: url(popLoginBox.png); _background: url(popLoginBox.gif) no-repeat; right: 43px; position: fixed; _position: absolute; z-index: 91; font-family: 'Microsoft Yahei'; display: none; }
+.popLoginBox h3 { font-size: 18px; height: 56px; line-height: 60px; color: #444; text-align: center; margin-top: -34px; _margin-top: -36px; }
+.popLoginBox td { color: #999; height: 45px; }
+.popLoginBox table { margin: 0 auto; }
+.popLoginBox td input { width: 190px; color: #333; font-family: 'Microsoft Yahei'; font-size: 12px; border: none; background: none; padding-left: 10px; }
+	
+	.popLoginBox h4 { font-size: 12px; color: #f00; font-weight: normal; padding-left: 28px; height: 20px; }
+	.popLoginBox h5 { height: 30px; margin-top: -20px; text-align: right; font-size: 12px; font-weight: normal; padding-right: 28px; }
+	
+	.popLoginBox h6 { text-align: center; font-size: 12px; color: #333; font-weight: normal; }
+	.popLoginBox h6 a { color: #309d00; text-decoration: underline; }
+	
+	.popLoginBox p { text-align: center; height: 50px; }
+	.popLoginBox p input, .popLoginBox p input.xhx { width: 260px; height: 35px; color: #fff; font-size: 14px; cursor: pointer; border: none; font-family: 'Microsoft Yahei'; background-image: url(popLoginBox.gif); background-repeat: no-repeat; }
+	.popLoginBox p input { background-position: 0 -300px; }
+	.popLoginBox p input.xhx { background-position: 0 -350px; }
+	
+	.poplx { height: 31px; display: block; padding-right: 8px; padding-top: 5px; overflow: hidden; position: relative; }
+	.poplx a { width: 31px; height: 31px; display: block; float: right; background-image: url(popLoginBox.gif); background-repeat: no-repeat; background-position: -280px -300px; text-indent: -98em; }
+	.poplx a { background-color: #cacaca; }
+	.poplx a:hover { background-color: #777; }
+
+
